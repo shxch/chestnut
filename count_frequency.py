@@ -1,5 +1,7 @@
 import os
 
+lemma_dict = {}
+
 
 def load_lemma_list(lemma_path):
     # read the lemma file into a list separated by lines
@@ -11,9 +13,6 @@ def load_lemma_list(lemma_path):
 
     # remove whitespace characters
     content = [x.strip() for x in content]
-
-    # create lemma dictionary
-    lemma_dict = {}
 
     # put everything in the dictionary
     for x in content:
@@ -33,17 +32,24 @@ def load_lemma_list(lemma_path):
 
 
 def read_text(path):
-    text = []
+    word_tokens = []
+
+    # if path is a file
     if os.path.isfile(path):
         file = open(path)
-        # text = nltk.word_tokenize(file.read())
+        word_tokens = file.read().split()
+
+    # if path is a directory
     elif os.path.isdir(path):
-        all = ""
+        text_from_all_files = ""
+
+        # gather every file in the directory
         for file in os.listdir(path):
             f = open(path + file, encoding='utf-8')
-            all += f.read()
-            # text = nltk.word_tokenize(all)
-    return text
+            text_from_all_files += f.read()
+            word_tokens = text_from_all_files.split()
+
+    return word_tokens
 
 
 def remove_learned(text, path="learned.txt"):
@@ -64,20 +70,15 @@ def get_word_frequency(path="word_frequency.csv"):
 
 
 def normalize_words(text):
-    # lower case
+    # lower case of all words
     temp = [w.lower() for w in text if w.isalpha()]
 
     # lemmatize all words
-    # wordnet_lemmatizer = WordNetLemmatizer()
     result = []
-    # for w in temp:
-    # lemmatized_word = wordnet_lemmatizer.lemmatize(w, "v")
-    # if it cannot be lemmatized to verb, lemmatize it to noun
-    # if w == lemmatized_word:
-    # noun = wordnet_lemmatizer.lemmatize(w, "n")
-    # result += [noun]
-    # else:
-    # result += [lemmatized_word]
+    for w in temp:
+        if w in lemma_dict:
+            result.append(lemma_dict[w])
+
     return result
 
 
@@ -101,6 +102,7 @@ def add_to_learned(text):
 
 
 def main():
+    global lemma_dict
     lemma_dict = load_lemma_list('AntBNC_lemmas_ver_001.txt')
     all_words = read_text("test1/")
     all_words = normalize_words(all_words)
@@ -110,7 +112,6 @@ def main():
     print("\n", len(all_words))
 
     # add_to_learned(all_words)
-
 
 if __name__ == "__main__":
     main()

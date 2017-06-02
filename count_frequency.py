@@ -1,6 +1,37 @@
 import os
 
 
+def load_lemma_list(lemma_path):
+    # read the lemma file into a list separated by lines
+    with open(lemma_path) as file:
+        content = file.readlines()
+
+    # replace tabs with whitespace
+    content = [x.replace('\t', ' ') for x in content]
+
+    # remove whitespace characters
+    content = [x.strip() for x in content]
+
+    # create lemma dictionary
+    lemma_dict = {}
+
+    # put everything in the dictionary
+    for x in content:
+        # split ->
+        t = x.split('->')
+        post_lemma = t[0].strip()
+        pre_lemma_string = t[1].strip()
+
+        # split pre lemma words
+        pre_lemma_words_list = pre_lemma_string.split()
+
+        # add a dict pair
+        for i in pre_lemma_words_list:
+            lemma_dict[i] = post_lemma
+
+    return lemma_dict
+
+
 def read_text(path):
     text = []
     if os.path.isfile(path):
@@ -41,7 +72,7 @@ def normalize_words(text):
     result = []
     # for w in temp:
     # lemmatized_word = wordnet_lemmatizer.lemmatize(w, "v")
-        # if it cannot be lemmatized to verb, lemmatize it to noun
+    # if it cannot be lemmatized to verb, lemmatize it to noun
     # if w == lemmatized_word:
     # noun = wordnet_lemmatizer.lemmatize(w, "n")
     # result += [noun]
@@ -70,6 +101,7 @@ def add_to_learned(text):
 
 
 def main():
+    lemma_dict = load_lemma_list('AntBNC_lemmas_ver_001.txt')
     all_words = read_text("test1/")
     all_words = normalize_words(all_words)
     all_words = set(all_words)

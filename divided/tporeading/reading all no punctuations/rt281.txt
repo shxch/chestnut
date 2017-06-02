@@ -1,0 +1,132 @@
+
+ 
+TPO 28
+Groundwater
+
+Most of the world s potable water    freshwater suitable for drinking    is accounted for by groundwater  which is stored in the pores and fractures in rocks  There is more than 50 times as much freshwater stored underground than in all the freshwater rivers and lakes at the surface  Nearly 50 percent of all groundwater is stored in the upper 1 000 meters of Earth  At greater depths within Earth  the pressure of the overlying rock causes pores and cracks to close  reducing the space that pore water can occupy  and almost complete closure occurs at a depth of about 10 kilometers  The greatest water storage  therefore  lies near the surface
+Aquifers  Porosity and Permeability
+Groundwater is stored in a variety of rock types  A groundwater reservoir from which water can be extracted is called an aquifer  We can effectively think of an aquifer as a deposit of water  Extraction of water depends on two properties of the aquifer  porosity and permeability  Between sediment grains are spaces that can be filled with water  This pore space is known as porosity and is expressed as a percentage of the total rock volume  Porosity is important for water storage capacity  but for water to flow through rocks  the pore spaces must be connected  The ability of water  or other fluids  to flow through the interconnected pore spaces in rocks is termed permeability  In the intergranular spaces of rocks  however  fluid must flow around and between grains in a tortuous path  this winding path causes a resistance to flow  The rate at which the flowing water overcomes this resistance is related to the permeability of rock
+Sediment sorting and compaction influence permeability and porosity  The more poorly sorted or the more tightly compacted a sediment is  the lower its porosity and permeability  Sedimentary rocks    the most common rock type near the surface    are also the most common reservoirs for water because they contain the most space that can be filled with water  Sandstones generally make good aquifers  while finer grained mudstones are typically impermeable  Impermeable rocks are referred to as aquicludes  Igneous and metamorphic rocks are more compact  commonly crystalline  and rarely contain spaces between grains  However  even igneous and metamorphic rocks may act as groundwater reservoirs if extensive fracturing occurs in such rocks and if the fracture system is interconnected
+The Water Table
+The water table is the underground boundary below which all the cracks and pores are filled with water  In some cases  the water table reaches Earth s surface  where it is expressed as rivers  lakes and marshes  Typically  though  the water table may be tens or hundreds of meters below the surface  The water table is not flat but usually follows the contours of the topography  Above the water table is the vadose zone  through which rainwater percolates  Water in the vadose zone drains down to the water table  leaving behind a thin coating of water on mineral grains  The vadose zone supplies plant roots near the surface with water
+Because the surface of the water table is not flat but instead rises and falls with topography  groundwater is affected by gravity in the same fashion as surface water  Groundwater flows downhill to topographic lows  If the water table intersect the land surface  groundwater will flow out onto the surface at springs  whether to be collected there or to subsequently flow farther along a drainage  Groundwater commonly collects in stream drainages but may remain entirely beneath the surface of dry stream beds in arid regions  In particularly wet years  short stretches of an otherwise dry stream bed may have flowing water because the water table rises to intersect the land surface
+ Glossary
+Sediment  materials  such as sand or small rocks  that are deposited by water  wind  or glacial ice
+Topography  the shape of a surface such as Earth s  including the rise and fall of such features as mountains and valleys
+
+
+
+
+1  In paragraph 1  why does the author mention  the pressure of the overlying rock
+  To show how water can be forced deep under Earth s surface
+  To show why groundwater is more plentiful than surface freshwater
+  To correct a commonly made error about the location of groundwater
+  To explain why most groundwater lies near Earth s surface
+
+2  According to paragraph 1  groundwater differs from the water in rivers and lakes in terms of its
+  portability
+  usefulness
+  abundance
+  cost
+
+
+
+3  The word  extracted  in the passage is closest in meaning to
+  used
+  poured
+  removed
+  kept out
+
+4  The word  termed  in the passage is closest in meaning to
+  considered
+  called
+  limited to
+  caused by
+
+5  According to paragraph 2  what does porosity determine
+  The rate at which the aquifer s water overcomes resistance to flow
+  The amount of water that the aquifer can hold
+  The likelihood that fractures and joints will occur in the aquifer
+  The depth underground at which the aquifer lies
+
+6  According to paragraph 2  what is the relationship between permeability and porosity
+  The more pores a rock has  the higher its porosity but the lower its permeability
+  Rocks with many internal spaces that are not connected with each other will have high porosity but low permeability
+  If water flows through a rock easily  it has high permeability but low porosity
+  Rocks that have high permeability have high porosity and vice versa
+
+
+
+7  The word  compacted  in the passage is closest in meaning to
+  hard
+  compressed
+  heavy
+  deeply buried
+
+8  According to paragraph 3  when can igneous rock serve as an aquifer
+  When it has many connected fractures
+  When it lies next to metamorphic rock
+  When it lies relatively near the surface
+  When it is crystalline
+
+
+
+
+9  The word  coating  in the passage is closest in meaning to
+  stream
+  barrier
+  amount
+  layer
+
+10  Paragraph 4 implies which of the following about the roots of plants
+  They prevent water from reaching the vadose zone
+  They mark the boundary between the vadose zone and the water table
+  They do not typically get their water from the water table
+  They help keep the water table from dropping farther
+
+
+
+11  Which of the sentences below best expresses the essential information in the highlighted sentence in the passage  Incorrect choices change the meaning in important ways or leave out essential information
+  Groundwater only flows out of the ground if the water table intersects the land surface
+  If the land surface and the water table intersect  groundwater can flow underground
+  Groundwater may be drained if springs occur where the water table intersects the land surface
+  Where the water table meets the land surface  groundwater flows out through surface springs
+
+
+12  Paragraph 5 implies which of the following about the level of the water
+  It may rise or fall from year to year  depending on annual rainfall
+  It does not vary in arid regions
+  It rarely intersects the land surface of most regions
+  It is unrelated to the rate at which groundwater flows
+
+
+
+
+
+
+13  Look at the four squares that indicate where the following sentence could be added to the passage
+This is a consequence of the slow rate of movement of the groundwater  which often prevents the water table from attaining a flat  horizontal  level
+Where would the sentence best fit
+
+
+
+
+
+
+14   Directions An introductory sentence for a brief summary of the passage is provided below  Complete the summary by selecting the THREE answer choices that express the most important ideas in the passage  Some sentences do not belong in the summary because they express ideas that are not presented in the passage or are minor ideas in the passage  This question is worth 2 points
+Most of the world s potable water is stored as groundwater in the pores and fractures of underground rock  much of it at depths of less than 1 000 meters
+
+
+
+
+
+Answer Choices
+
+  Sedimentary rock may make poor aquifers because of tightly compacted sediment  which reduces porosity and permeability
+  Porosity is a measure of the empty space within rock while permeability measures the degree to which water can flow freely through rock
+  In arid regions  the water tables remain at a constant level far below the surface  preventing stream beds from filling up even during wet years
+  Groundwater reservoirs are characterized by the porosity and permeability of the rock in which they lie  and these factors vary according to the type of rock
+  The vadose zone is typically dry because water does not stay in it  but instead percolates down to aquifers below or drains out through springs and streams
+  Although the water table usually follows the contours of the land surface  its level may vary from year to year and may intersect to the surface in places
+
+

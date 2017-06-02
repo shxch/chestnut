@@ -1,0 +1,135 @@
+
+
+
+ 
+Development of the Periodic Table
+The periodic table is a chart that reflects the periodic recurrence of chemical and physical properties of the elements when the elements are arranged in order of increasing atomic number  the number of protons in the nucleus   It is a monumental scientific achievement  and its development illustrates the essential interplay between observation  prediction  and testing required for scientific progress  In the 1800 s scientists were searching for new elements  By the late 1860 s more than 60 chemical elements had been identified  and much was known about their descriptive chemistry  Various proposals were put forth to arrange the elements into groups based on similarities in chemical and physical properties  The next step was to recognize a connection between group properties  physical or chemical similarities  and atomic mass  the measured mass of an individual atom of an element   When the elements known at the time were ordered by increasing atomic mass  it was found that successive elements belonged to different chemical groups and that the order of the groups in this sequence was fixed and repeated itself at regular intervals  Thus when the series of elements was written so as to begin a new horizontal row with each alkali metal  elements of the same groups were automatically assembled in vertical columns in a periodic table of the elements  This table was the forerunner of the modern table
+When the German chemist Lothar Meyer and  independently  the Russian Dmitry Mendeleyev first introduced the periodic table in 1869 70  one third of the naturally occurring chemical elements had not yet been discovered  Yet both chemists were sufficiently farsighted to leave gaps where their analyses of periodic physical and chemical properties indicated that new elements should be located  Mendeleyev was bolder than Meyer and even assumed that if a measured atomic mass put an element in the wrong place in the table  the atomic mass was wrong  In some cases this was true  Indium  for example  had previously been assigned an atomic mass between those of arsenic and selenium  Because there is no space in the periodic table between these two elements  Mendeleyev suggested that the atomic mass of indium be changed to a completely different value  where it would fill an empty space between cadmium and tin  In fact  subsequent work has shown that in a periodic table  elements should not be ordered strictly by atomic mass  For example  tellurium comes before iodine in the periodic table  even though its atomic mass is slightly greater  Such anomalies are due to the relative abundance of the  isotopes  or varieties of each element  All the isotopes of a given element have the same number of protons  but differ in their number of neutrons  and hence in their atomic mass  The isotopes of a given element have the same chemical properties but slightly different physical properties  We now know that atomic number  the number of protons in the nucleus   not atomic mass number  the number of protons and neutrons   determines chemical behavior
+Mendeleyev went further than Meyer in another respect  he predicted the properties of six elements yet to be discovered  For example  a gap just below aluminum suggested a new element would be found with properties analogous to those of aluminum  Mendeleyev designated this element  eka aluminum   eka is the Sanskrit word for  next   and predicted its properties  Just five years later an element with the proper atomic mass was isolated and named gallium by its discoverer  The close correspondence between the observed properties of gallium and Mendeleyev s predictions for eka aluminum lent strong support to the periodic law  Additional support came in 1885 when eka silicon  which had also been described in advance by Mendeleyev  was discovered and named germanium
+The structure of the periodic table appeared to limit the number of possible elements  It was therefore quite surprising when John William Strut  Lord Rayleigh  discovered a gaseous element in 1894 that did not fit into the previous classification scheme  A century earlier  Henry Cavendish had noted the existence of a residual gas when   oxygen and nitrogen are removed from air  but its importance had not been realized  Together with William Ramsay  Rayleigh isolated the gas  separating it from other substances into its pure state  and named it argon  Ramsay then studied a gas that was present in natural gas deposits and discovered that it was helium  an element whose presence in the Sun had been noted earlier in the spectrum of sunlight but that had not previously been known on Earth  Rayleigh and Ramsay postulated the existence of a new group of elements  and in 1898 other members of the series  neon  krypton  and xenon  were isolated
+
+
+
+
+
+
+
+
+
+  1  The phrase interplay in the passage is closest in meaning to
+ sequence
+ interpretation
+ requirement
+ interaction
+
+
+
+2  According to paragraph 1  what pattern did scientists notice when the known elements were written in order of increasing atomic mass
+ The elements of the group of alkali metals were the first elements in the order of increasing atomic mass
+ Repetition of the same atomic masses for elements in different groups appeared
+ Elements with similar chemical properties appeared in the listing at regular intervals
+ Elements were chemically most similar to those just before and after them in the order
+
+
+
+
+
+
+
+
+
+
+
+     3  In paragraph 2  what is the author s purpose in presenting the information about the decision by Meyer and Mendeleyev to leave gaps in the periodic table
+ To illustrate their confidence that the organizing principles of the periodic table would govern the occurrence of all chemical elements
+ To indicate that some of their analyses of periodic physical and chemical properties were later found to be wrong
+ To support the idea that they were unwilling to place new elements in the periodic table
+ To indicate how they handled their disagreement about where to place new elements
+4  What reason does the author provide for the claim that Mendeleyev was bolder than Meyer
+ Mendeleyev corrected incorrect information Meyer had proposed
+ Mendeleyev assumed that some information believed to be true about the elements was incorrect
+ Mendeleyev argued that Meyer had not left enough gaps in the periodic table
+ Mendeleyev realized that elements were not ordered by atomic mass in the periodic table
+5  According to paragraph 2  why did Mendeleyev suggest changing the atomic mass of indium
+ Because indium did not fit into the periodic table in the place predicted by its atomic mass
+ Because there was experimental evidence that the atomic mass that had been assigned to indium was incorrect
+ Because there was an empty space between cadmium and tin in the periodic table
+ Because the chemical properties of indium were similar to those of arsenic and selenium
+6  It can be inferred from paragraph 2 that tellurium comes before iodine in the periodic table even though tellurium s atomic mass is slightly greater because
+ iodine is less common than tellurium
+ both iodine and tellurium have no isotopes
+ the chemical behavior of tellurium is highly variable
+ the atomic number of tellurium is smaller than that of iodine
+7  The phrase  abundance  in the passage is closest in meaning to
+ weight
+ requirement
+ plenty
+ sequence
+
+
+8  The phrase  analogous to  in the passage is closest in meaning to
+ predicted by
+ expected of
+ similar to
+ superior to
+9  Paragraph 3 suggests that Mendeleyev predicted the properties of eka aluminum on the basis of
+ the atomic mass of aluminum
+ the position of the gap in the periodic table that eka aluminum was predicted to fill
+ the similarity of eka aluminum to the other five missing elements
+ observation of the properties of gallium
+10  It can be inferred from paragraph 3 that the significance of the discovery of gallium was that it supported which of the following
+ The idea that aluminum was correctly placed in the periodic table
+ Mendeleyev s prediction that eka silicon would be discovered next
+ The organizing principle of the periodic table
+ The idea that unknown elements existed
+
+
+
+11  Which of the sentences below best expresses the essential information in the highlighted sentence in the passage  Incorrect choices change the meaning in important ways or leave out essential information
+ Ramsay found evidence of helium in the spectrum of sunlight before he discovered that the element was also contained in natural gas deposits on Earth
+ Ramsay thought he had discovered a new element present in natural gas deposits  but he was wrong since that element had been previously observed elsewhere on Earth
+ After Ramsay had discovered a new element  called helium  in natural gas deposits on Earth  he also found evidence of its presence in the Sun
+ Ramsay later discovered that helium  an element that was already known to be present in the Sun  was also present in natural gas deposits on Earth
+
+
+
+
+
+
+
+
+
+12  The word  postulated  in the passage is closest in meaning to
+ hypothesized
+ discovered
+ reported
+ generated
+
+
+
+
+
+
+
+
+
+13  Look at the four squares that indicate where the following sentence could be added to the passage
+It was a natural Idea to break up the series of elements at the points where the sequence of chemical groups to which the elements belonged began to repeat itself
+
+Where would the sentence best fit
+
+14  Directions An introductory sentence for a brief summary of the passage is provided below  Complete the summary by selecting the THREE answer choices that express the most important ideas in the passage  Some sentences do not belong in the summary because they express ideas that are not presented in the passage or are minor ideas in the passage  This question is worth 2 points
+The periodic table introduced by Meyer and Mendeleyev was the forerunner of the modern table of elements
+
+
+
+
+Answer Choices
+
+ Lord Rayleigh provided evidence that the structure of the I Ramsay and Lord Rayleigh challenged the importance of the periodic table limited the potential number of elements
+ Chemical research that Henry Cavendish had done a century earlier
+ Isotopes of a given element have exactly the same physical properties  but their chemical properties are slightly different
+ Mendeleyev and Meyer organized the known elements into a F chart that revealed periodic recurrences of chemical and physical properties
+ Mendeleyev s successful prediction of the properties of then  r unknown elements lent support to the acceptance of the periodic law
+ In the 1890 s  Ramsay and Lord Rayleigh isolated argon and proposed the existence of a new series of elements  
+ 

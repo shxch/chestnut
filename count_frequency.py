@@ -1,4 +1,5 @@
 import os
+from collections import OrderedDict
 
 lemma_dict = {}
 
@@ -78,6 +79,10 @@ def normalize_words(text):
     for w in temp:
         if w in lemma_dict:
             result.append(lemma_dict[w])
+        else:
+            result.append(w)
+            # for debugging
+            # print(w)
 
     return result
 
@@ -91,8 +96,8 @@ def print_ordered_words(words):
             # print(w, word_freq[w])
 
     for w in sorted(ordered_words, key=ordered_words.get, reverse=True):
-        # print(w + "," + str(ordered_words[w]))
-        print(w)
+        print(w + "," + str(ordered_words[w]))
+        # print(w)
 
 
 def add_to_learned(text):
@@ -101,17 +106,49 @@ def add_to_learned(text):
             f.write(w + "\n")
 
 
+def write_to_file(content, path):
+    with open(path, 'w') as f:
+        f.write(content)
+
+
+def sort_dict_by_value(unsorted_dict):
+    sorted_dict = OrderedDict(sorted(unsorted_dict.items(), key=lambda t: t[1], reverse=True))
+    return sorted_dict
+
+
+def count_words(text):
+    word_count = {}
+
+    for word in text:
+        if word not in word_count:
+            word_count[word] = 1
+        else:
+            word_count[word] = word_count[word] + 1
+
+    return word_count
+
+
 def main():
     global lemma_dict
     lemma_dict = load_lemma_list('AntBNC_lemmas_ver_001.txt')
     all_words = read_text("test1/")
     all_words = normalize_words(all_words)
-    all_words = set(all_words)
-    all_words = remove_learned(all_words)
-    print_ordered_words(all_words)
-    print("\n", len(all_words))
+    # all_words = set(all_words)
+    # all_words = remove_learned(all_words)
+    # print_ordered_words(all_words)
 
-    # add_to_learned(all_words)
+    # print(all_words)
+    # print("\n", len(all_words))
+
+    result = count_words(all_words)
+    sorted_result = sort_dict_by_value(result)
+
+    # print(sorted_result)
+    for key, val in sorted_result.items():
+        print(key, val)
+        #
+        # add_to_learned(result)
+
 
 if __name__ == "__main__":
     main()

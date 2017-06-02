@@ -1,19 +1,17 @@
-# import nltk
 import os
-# from nltk.stem import WordNetLemmatizer
 
 
 def read_text(path):
     text = []
     if os.path.isfile(path):
         file = open(path)
-        text = nltk.word_tokenize(file.read())
+        # text = nltk.word_tokenize(file.read())
     elif os.path.isdir(path):
         all = ""
         for file in os.listdir(path):
             f = open(path + file, encoding='utf-8')
             all += f.read()
-        text = nltk.word_tokenize(all)
+            # text = nltk.word_tokenize(all)
     return text
 
 
@@ -39,17 +37,16 @@ def normalize_words(text):
     temp = [w.lower() for w in text if w.isalpha()]
 
     # lemmatize all words
-    wordnet_lemmatizer = WordNetLemmatizer()
+    # wordnet_lemmatizer = WordNetLemmatizer()
     result = []
-    for w in temp:
-        # first lemmatize the word to verb
-        lemmatized_word = wordnet_lemmatizer.lemmatize(w, "v")
+    # for w in temp:
+    # lemmatized_word = wordnet_lemmatizer.lemmatize(w, "v")
         # if it cannot be lemmatized to verb, lemmatize it to noun
-        if w == lemmatized_word:
-            noun = wordnet_lemmatizer.lemmatize(w, "n")
-            result += [noun]
-        else:
-            result += [lemmatized_word]
+    # if w == lemmatized_word:
+    # noun = wordnet_lemmatizer.lemmatize(w, "n")
+    # result += [noun]
+    # else:
+    # result += [lemmatized_word]
     return result
 
 

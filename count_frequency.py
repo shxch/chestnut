@@ -96,8 +96,8 @@ def print_ordered_words(words):
             # print(w, word_freq[w])
 
     for w in sorted(ordered_words, key=ordered_words.get, reverse=True):
-        print(w + "," + str(ordered_words[w]))
-        # print(w)
+        # print(w + "," + str(ordered_words[w]))
+        print(w)
 
 
 def add_to_learned(text):
@@ -133,21 +133,14 @@ def main():
     lemma_dict = load_lemma_list('AntBNC_lemmas_ver_001.txt')
     all_words = read_text("test1/")
     all_words = normalize_words(all_words)
-    # all_words = set(all_words)
-    # all_words = remove_learned(all_words)
-    # print_ordered_words(all_words)
+    all_words = set(all_words)
+    all_words = remove_learned(all_words)
+    print_ordered_words(all_words)
 
     # print(all_words)
     # print("\n", len(all_words))
 
-    result = count_words(all_words)
-    sorted_result = sort_dict_by_value(result)
-
-    # print(sorted_result)
-    for key, val in sorted_result.items():
-        print(key, val)
-        #
-        # add_to_learned(result)
+    # add_to_learned(all_words)
 
 
 if __name__ == "__main__":

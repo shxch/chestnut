@@ -140,7 +140,7 @@ def main():
     # print(all_words)
     # print("\n", len(all_words))
 
-    # add_to_learned(all_words)
+    add_to_learned(all_words)
 
 
 if __name__ == "__main__":

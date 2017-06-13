@@ -2,6 +2,7 @@ import os
 from collections import OrderedDict
 
 lemma_dict = {}
+person = 'learned.txt'
 
 
 def load_lemma_list(lemma_path):
@@ -53,7 +54,7 @@ def read_text(path):
     return word_tokens
 
 
-def remove_learned(text, path="learned.txt"):
+def remove_learned(text, path=person):
     learned_words = read_text(path)
     result = []
     for w in text:
@@ -101,7 +102,7 @@ def print_ordered_words(words):
 
 
 def add_to_learned(text):
-    with open('learned.txt', 'a') as f:
+    with open(person, 'a') as f:
         for w in text:
             f.write(w + "\n")
 
@@ -138,9 +139,9 @@ def main():
     print_ordered_words(all_words)
 
     # print(all_words)
-    # print("\n", len(all_words))
+    print("\n", len(all_words))
 
-    add_to_learned(all_words)
+    # add_to_learned(all_words)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ import os
 from collections import OrderedDict
 
 lemma_dict = {}
-person = 'learned.txt'
+person = 'wlx.txt'
 
 
 def load_lemma_list(lemma_path):
@@ -141,7 +141,7 @@ def main():
     # print(all_words)
     print("\n", len(all_words))
 
-    # add_to_learned(all_words)
+    add_to_learned(all_words)
 
 
 if __name__ == "__main__":

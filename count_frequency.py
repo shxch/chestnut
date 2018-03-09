@@ -2,7 +2,7 @@ import os
 from collections import OrderedDict
 
 lemma_dict = {}
-person = 'wlx.txt'
+person = 'students/current_students/qichao_lin.txt'
 
 
 def load_lemma_list(lemma_path):
@@ -132,7 +132,8 @@ def count_words(text):
 def main():
     global lemma_dict
     lemma_dict = load_lemma_list('AntBNC_lemmas_ver_001.txt')
-    all_words = read_text("test1/")
+
+    all_words = read_text("files_to_add/")
     all_words = normalize_words(all_words)
     all_words = set(all_words)
     all_words = remove_learned(all_words)

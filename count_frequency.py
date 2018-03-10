@@ -1,4 +1,5 @@
 import os
+import string
 from collections import OrderedDict
 
 lemma_dict = {}
@@ -73,17 +74,23 @@ def get_word_frequency(path="word_frequency.csv"):
 
 def normalize_words(text):
     # lower case of all words
-    temp = [w.lower() for w in text if w.isalpha()]
+    temp1 = [w.lower() for w in text]
+
+    # get rid of punctuations at the end of each word
+    temp2 = []
+    for w in temp1:
+        while w[-1] in string.punctuation and len(w) > 2:
+            w = w[0:-1]
+        temp2.append(w)
 
     # lemmatize all words
     result = []
-    for w in temp:
+    for w in temp2:
+
         if w in lemma_dict:
             result.append(lemma_dict[w])
         else:
             result.append(w)
-            # for debugging
-            # print(w)
 
     return result
 
@@ -94,11 +101,13 @@ def print_ordered_words(words):
     for w in words:
         if w in word_freq:
             ordered_words[w] = word_freq[w]
-            # print(w, word_freq[w])
 
-    for w in sorted(ordered_words, key=ordered_words.get, reverse=True):
-        # print(w + "," + str(ordered_words[w]))
-        print(w)
+    with open(person, 'a') as f:
+
+        for w in sorted(ordered_words, key=ordered_words.get, reverse=True):
+            # print(w + "," + str(ordered_words[w]))
+            print(w)
+            f.write(w + "\n")
 
 
 def add_to_learned(text):
@@ -139,10 +148,7 @@ def main():
     all_words = remove_learned(all_words)
     print_ordered_words(all_words)
 
-    # print(all_words)
-    print("\n", len(all_words))
-
-    add_to_learned(all_words)
+    # print("\n", len(all_words))
 
 
 if __name__ == "__main__":

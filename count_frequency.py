@@ -76,11 +76,13 @@ def normalize_words(text):
     # lower case of all words
     temp1 = [w.lower() for w in text]
 
-    # get rid of punctuations at the end of each word
+    # get rid of punctuations at the head or end of each word
     temp2 = []
     for w in temp1:
+        while w[0] in string.punctuation and len(w) > 2:
+            w = w[1:]
         while w[-1] in string.punctuation and len(w) > 2:
-            w = w[0:-1]
+            w = w[:-1]
         temp2.append(w)
 
     # lemmatize all words
@@ -101,6 +103,8 @@ def print_ordered_words(words):
     for w in words:
         if w in word_freq:
             ordered_words[w] = word_freq[w]
+        else:
+            ordered_words[w] = 1
 
     with open(person, 'a') as f:
 
@@ -145,7 +149,9 @@ def main():
     all_words = read_text("files_to_add/")
     all_words = normalize_words(all_words)
     all_words = set(all_words)
+
     all_words = remove_learned(all_words)
+
     print_ordered_words(all_words)
 
     # print("\n", len(all_words))

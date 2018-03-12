@@ -73,21 +73,43 @@ def get_word_frequency(path="word_frequency.csv"):
 
 
 def normalize_words(text):
-    # lower case of all words
-    temp1 = [w.lower() for w in text]
+    # lower case all words
+    lower_cased_words = [w.lower() for w in text]
 
-    # get rid of punctuations at the head or end of each word
-    temp2 = []
-    for w in temp1:
-        while w[0] in string.punctuation and len(w) > 2:
-            w = w[1:]
-        while w[-1] in string.punctuation and len(w) > 2:
-            w = w[:-1]
-        temp2.append(w)
+    # remove numbers
+    for w in lower_cased_words:
+        if any(char.isdigit() for char in w):
+            lower_cased_words.remove(w)
+            # debug
+            # print("removed: " + w)
+
+    # trim punctuations
+    trimmed_punctuations_words = []
+    for w in lower_cased_words:
+
+        # remove strings that only contain punctuations
+        if all(char in string.punctuation for char in w):
+            # debug
+            # print("removed punctuations: " + w)
+            w = ''
+        # else trim punctuations
+        else:
+            while w[0] in string.punctuation:
+                w = w[1:]
+            while w[-1] in string.punctuation:
+                w = w[:-1]
+
+        trimmed_punctuations_words.append(w)
+
+    # remove 's
+    for w in trimmed_punctuations_words:
+        if w.endswith("'s"):
+            trimmed_punctuations_words.remove(w)
+            trimmed_punctuations_words.append(w[:-2])
 
     # lemmatize all words
     result = []
-    for w in temp2:
+    for w in trimmed_punctuations_words:
 
         if w in lemma_dict:
             result.append(lemma_dict[w])

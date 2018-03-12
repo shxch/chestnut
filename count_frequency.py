@@ -99,7 +99,9 @@ def normalize_words(text):
             while w[-1] in string.punctuation:
                 w = w[:-1]
 
-        trimmed_punctuations_words.append(w)
+        # make sure w is not empty
+        if w:
+            trimmed_punctuations_words.append(w)
 
     # remove 's
     for w in trimmed_punctuations_words:

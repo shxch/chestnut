@@ -1,5 +1,4 @@
 import os
-import string
 from collections import OrderedDict
 
 lemma_dict = {}
@@ -55,6 +54,27 @@ def read_text(path):
     return word_tokens
 
 
+def remove_non_alpha_chars(words):
+    no_punctuations_words = ""
+
+    for w in words:
+        for c in w:
+
+            # replace non alpha chars with spaces
+            if not c.isalpha():
+                no_punctuations_words += " "
+                # debug
+                # print("removed " + c + "in " + w)
+
+            # if chars are alpha, add them as they are
+            else:
+                no_punctuations_words += c
+
+        # add spaces between each word
+        no_punctuations_words += " "
+    return no_punctuations_words.split()
+
+
 def remove_learned(text, path=person):
     learned_words = read_text(path)
     result = []
@@ -72,46 +92,13 @@ def get_word_frequency(path="word_frequency.csv"):
     return word_freq
 
 
-def normalize_words(text):
+def lemmatize_words(text):
     # lower case all words
     lower_cased_words = [w.lower() for w in text]
 
-    # remove numbers
-    for w in lower_cased_words:
-        if any(char.isdigit() for char in w):
-            lower_cased_words.remove(w)
-            # debug
-            # print("removed: " + w)
-
-    # trim punctuations
-    trimmed_punctuations_words = []
-    for w in lower_cased_words:
-
-        # remove strings that only contain punctuations
-        if all(char in string.punctuation for char in w):
-            # debug
-            # print("removed punctuations: " + w)
-            w = ''
-        # else trim punctuations
-        else:
-            while w[0] in string.punctuation:
-                w = w[1:]
-            while w[-1] in string.punctuation:
-                w = w[:-1]
-
-        # make sure w is not empty
-        if w:
-            trimmed_punctuations_words.append(w)
-
-    # remove 's
-    for w in trimmed_punctuations_words:
-        if w.endswith("'s"):
-            trimmed_punctuations_words.remove(w)
-            trimmed_punctuations_words.append(w[:-2])
-
     # lemmatize all words
     result = []
-    for w in trimmed_punctuations_words:
+    for w in lower_cased_words:
 
         if w in lemma_dict:
             result.append(lemma_dict[w])
@@ -121,7 +108,7 @@ def normalize_words(text):
     return result
 
 
-def print_ordered_words(words):
+def print_words_in_freq_order(words):
     word_freq = get_word_frequency()
     ordered_words = {}
     for w in words:
@@ -171,13 +158,15 @@ def main():
     lemma_dict = load_lemma_list('AntBNC_lemmas_ver_001.txt')
 
     all_words = read_text("files_to_add/")
-    all_words = normalize_words(all_words)
+    all_words = remove_non_alpha_chars(all_words)
+    all_words = lemmatize_words(all_words)
     all_words = set(all_words)
 
     all_words = remove_learned(all_words)
 
-    print_ordered_words(all_words)
+    print_words_in_freq_order(all_words)
 
+    # print list length
     # print("\n", len(all_words))
 
 

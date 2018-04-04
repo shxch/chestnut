@@ -1,7 +1,11 @@
 import os
 from collections import OrderedDict
 
-mode = "cumulative"
+# read mode
+read_mode = "cumulative"
+
+# file paths
+new_text_file_path = 'files_to_add'
 lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
 word_frequency_file_path = 'word_frequency.csv'
 person = 'students/current_students/qichao_lin.txt'
@@ -149,7 +153,7 @@ def sort_dict_by_value(unsorted_dict):
 
 
 def main():
-    all_words = read_text_cumulative("files_to_add/")
+    all_words = read_text_cumulative(new_text_file_path)
     all_words = remove_non_alpha_chars(all_words)
     all_words = lemmatize_words(all_words)
     all_words = set(all_words)

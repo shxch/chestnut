@@ -1,13 +1,17 @@
 import os
 from collections import OrderedDict
 
-lemma_dict = {}
+mode = "cumulative"
+lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
+word_frequency_file_path = 'word_frequency.csv'
 person = 'students/current_students/qichao_lin.txt'
 
 
-def load_lemma_list(lemma_path):
+def load_lemma_list(path=lemma_dict_file_path):
+    lemma_dict = {}
+
     # read the lemma file into a list separated by lines
-    with open(lemma_path) as file:
+    with open(path) as file:
         content = file.readlines()
 
     # replace tabs with whitespace
@@ -33,7 +37,7 @@ def load_lemma_list(lemma_path):
     return lemma_dict
 
 
-def read_text(path):
+def read_text_cumulative(path):
     word_tokens = []
 
     # if path is a file
@@ -76,7 +80,7 @@ def remove_non_alpha_chars(words):
 
 
 def remove_learned(text, path=person):
-    learned_words = read_text(path)
+    learned_words = read_text_cumulative(path)
     result = []
     for w in text:
         if w not in learned_words:
@@ -84,7 +88,7 @@ def remove_learned(text, path=person):
     return result
 
 
-def get_word_frequency(path="word_frequency.csv"):
+def get_word_frequency(path=word_frequency_file_path):
     word_freq = {}
     for line in open(path):
         word, freq = line.split(",")
@@ -93,6 +97,9 @@ def get_word_frequency(path="word_frequency.csv"):
 
 
 def lemmatize_words(text):
+    # load lemma dictionary
+    lemma_dict = load_lemma_list()
+
     # lower case all words
     lower_cased_words = [w.lower() for w in text]
 
@@ -141,23 +148,8 @@ def sort_dict_by_value(unsorted_dict):
     return sorted_dict
 
 
-def count_words(text):
-    word_count = {}
-
-    for word in text:
-        if word not in word_count:
-            word_count[word] = 1
-        else:
-            word_count[word] = word_count[word] + 1
-
-    return word_count
-
-
 def main():
-    global lemma_dict
-    lemma_dict = load_lemma_list('AntBNC_lemmas_ver_001.txt')
-
-    all_words = read_text("files_to_add/")
+    all_words = read_text_cumulative("files_to_add/")
     all_words = remove_non_alpha_chars(all_words)
     all_words = lemmatize_words(all_words)
     all_words = set(all_words)

@@ -179,6 +179,9 @@ def main():
     # load lemma dictionary
     load_lemma_dict()
 
+    print('person: ' + person)
+    print('new files: ' + new_files_path)
+
     if read_mode == 'cumulative':
         words = read_words_from_path(new_files_path)
 

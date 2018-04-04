@@ -9,13 +9,13 @@ new_files_path = 'new_files/'
 lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
 word_frequency_file_path = 'word_frequency.csv'
 # person = 'students/current_students/qichao_lin.txt'
-# debug
 person = 'dummy.txt'
 
+# global variables
+lemma_dict = dict()
 
-def load_lemma_list(path=lemma_dict_file_path):
-    lemma_dict = {}
 
+def load_lemma_dict(path=lemma_dict_file_path):
     # read the lemma file into a list separated by lines
     with open(path) as file:
         content = file.readlines()
@@ -39,8 +39,6 @@ def load_lemma_list(path=lemma_dict_file_path):
         # add a dict pair
         for i in pre_lemma_words_list:
             lemma_dict[i] = post_lemma
-
-    return lemma_dict
 
 
 def read_files_from_path(path):
@@ -120,11 +118,7 @@ def get_word_frequency(path=word_frequency_file_path):
     return word_freq
 
 
-# todo make # of loading only one
 def lemmatize_words(text):
-    # load lemma dictionary
-    lemma_dict = load_lemma_list()
-
     # lower case all words
     lower_cased_words = [w.lower() for w in text]
 
@@ -174,6 +168,9 @@ def sort_dict_by_value(unsorted_dict):
 
 
 def main():
+    # load lemma dictionary
+    load_lemma_dict()
+
     if read_mode == 'cumulative':
         all_words = read_words_from_path(new_files_path)
         all_words = remove_non_alpha_chars(all_words)

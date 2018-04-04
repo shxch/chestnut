@@ -8,8 +8,7 @@ read_mode = "separate"
 new_files_path = 'new_files/'
 lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
 word_frequency_file_path = 'word_frequency.csv'
-# person = 'students/current_students/qichao_lin.txt'
-person = 'dummy.txt'
+person = 'students/current_students/qichao_lin.txt'
 
 # global variables
 lemma_dict = dict()
@@ -167,22 +166,25 @@ def sort_dict_by_value(unsorted_dict):
     return sorted_dict
 
 
+def process_words(words):
+    words = remove_non_alpha_chars(words)
+    words = lemmatize_words(words)
+    words = set(words)
+    words = remove_learned(words)
+
+    return words
+
+
 def main():
     # load lemma dictionary
     load_lemma_dict()
 
     if read_mode == 'cumulative':
-        all_words = read_words_from_path(new_files_path)
-        all_words = remove_non_alpha_chars(all_words)
-        all_words = lemmatize_words(all_words)
-        all_words = set(all_words)
+        words = read_words_from_path(new_files_path)
 
-        all_words = remove_learned(all_words)
+        words = process_words(words)
 
-        store_and_print_words_in_freq_order(all_words)
-
-        # print list length
-        # print("\n", len(all_words))
+        store_and_print_words_in_freq_order(words)
 
     elif read_mode == 'separate':
 
@@ -191,11 +193,7 @@ def main():
         for f in files:
             words = f.read().split()
 
-            # todo merge these processes into one def
-            words = remove_non_alpha_chars(words)
-            words = lemmatize_words(words)
-            words = set(words)
-            words = remove_learned(words)
+            words = process_words(words)
 
             print()
             print(f.name)

@@ -5,10 +5,12 @@ from collections import OrderedDict
 read_mode = "cumulative"
 
 # file paths
-new_text_file_path = 'files_to_add'
+new_files_path = 'new_files/'
 lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
 word_frequency_file_path = 'word_frequency.csv'
-person = 'students/current_students/qichao_lin.txt'
+# person = 'students/current_students/qichao_lin.txt'
+# debug
+person = 'dummy.txt'
 
 
 def load_lemma_list(path=lemma_dict_file_path):
@@ -41,25 +43,43 @@ def load_lemma_list(path=lemma_dict_file_path):
     return lemma_dict
 
 
-def read_text_cumulative(path):
-    word_tokens = []
+def read_files_from_path(path):
+    files = []
 
     # if path is a file
     if os.path.isfile(path):
-        file = open(path)
-        word_tokens = file.read().split()
+        f = open(path, encoding='utf-8')
+        files.append(f)
 
     # if path is a directory
     elif os.path.isdir(path):
-        text_from_all_files = ""
 
         # gather every file in the directory
         for file in os.listdir(path):
             f = open(path + file, encoding='utf-8')
-            text_from_all_files += f.read()
-            word_tokens = text_from_all_files.split()
+            files.append(f)
 
-    return word_tokens
+    return files
+
+
+def read_words_from_files(files):
+    words = []
+
+    # ensure files list is not empty
+    if files:
+
+        text_from_all_files = ''
+
+        for f in files:
+            text_from_all_files += f.read() + '\n'
+
+        words = text_from_all_files.split()
+
+    return words
+
+
+def read_words_from_path(path):
+    return read_words_from_files(read_files_from_path(path))
 
 
 def remove_non_alpha_chars(words):
@@ -84,7 +104,7 @@ def remove_non_alpha_chars(words):
 
 
 def remove_learned(text, path=person):
-    learned_words = read_text_cumulative(path)
+    learned_words = read_words_from_path(path)
     result = []
     for w in text:
         if w not in learned_words:
@@ -153,17 +173,26 @@ def sort_dict_by_value(unsorted_dict):
 
 
 def main():
-    all_words = read_text_cumulative(new_text_file_path)
-    all_words = remove_non_alpha_chars(all_words)
-    all_words = lemmatize_words(all_words)
-    all_words = set(all_words)
+    if read_mode == 'cumulative':
+        all_words = read_words_from_path(new_files_path)
+        all_words = remove_non_alpha_chars(all_words)
+        all_words = lemmatize_words(all_words)
+        all_words = set(all_words)
 
-    all_words = remove_learned(all_words)
+        all_words = remove_learned(all_words)
 
-    print_words_in_freq_order(all_words)
+        print_words_in_freq_order(all_words)
 
-    # print list length
-    # print("\n", len(all_words))
+        # print list length
+        # print("\n", len(all_words))
+
+    # todo finish separate reading mode
+    # elif read_mode == 'separate':
+    #     # read all files in a dir
+    #     files = read_files_in_dir(new_text_file_path)
+    #
+    #     for f in files:
+    #         words = files.read().split()
 
 
 if __name__ == "__main__":

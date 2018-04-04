@@ -2,7 +2,7 @@ import os
 from collections import OrderedDict
 
 # read mode
-read_mode = "cumulative"
+read_mode = "separate"
 
 # file paths
 new_files_path = 'new_files/'
@@ -120,6 +120,7 @@ def get_word_frequency(path=word_frequency_file_path):
     return word_freq
 
 
+# todo make # of loading only one
 def lemmatize_words(text):
     # load lemma dictionary
     lemma_dict = load_lemma_list()
@@ -139,7 +140,7 @@ def lemmatize_words(text):
     return result
 
 
-def print_words_in_freq_order(words):
+def store_and_print_words_in_freq_order(words):
     word_freq = get_word_frequency()
     ordered_words = {}
     for w in words:
@@ -181,18 +182,27 @@ def main():
 
         all_words = remove_learned(all_words)
 
-        print_words_in_freq_order(all_words)
+        store_and_print_words_in_freq_order(all_words)
 
         # print list length
         # print("\n", len(all_words))
 
-    # todo finish separate reading mode
-    # elif read_mode == 'separate':
-    #     # read all files in a dir
-    #     files = read_files_in_dir(new_text_file_path)
-    #
-    #     for f in files:
-    #         words = files.read().split()
+    elif read_mode == 'separate':
+
+        files = read_files_from_path(new_files_path)
+
+        for f in files:
+            words = f.read().split()
+
+            # todo merge these processes into one def
+            words = remove_non_alpha_chars(words)
+            words = lemmatize_words(words)
+            words = set(words)
+            words = remove_learned(words)
+
+            print()
+            print(f.name)
+            store_and_print_words_in_freq_order(words)
 
 
 if __name__ == "__main__":

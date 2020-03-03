@@ -1,14 +1,15 @@
 import os
+import re
 from collections import OrderedDict
 
 # read mode
-read_mode = "separate"
+read_mode = "cumulative"
 
 # file paths
 new_files_path = 'new_files/'
 lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
-word_frequency_file_path = 'word_frequency.csv'
-person = 'students/current_students/qichao_lin.txt'
+word_frequency_file_path = 'google-books-common-words.txt'
+person = 'students/current_students/shaowei_hong.txt'
 
 # global variables
 lemma_dict = dict()
@@ -80,24 +81,14 @@ def read_words_from_path(path):
 
 
 def remove_non_alpha_chars(words):
-    no_punctuations_words = ""
+    alpha_only_words = ""
 
     for w in words:
-        for c in w:
-
-            # replace non alpha chars with spaces
-            if not c.isalpha():
-                no_punctuations_words += " "
-                # debug
-                # print("removed " + c + "in " + w)
-
-            # if chars are alpha, add them as they are
-            else:
-                no_punctuations_words += c
+        w = re.sub(r"[^A-Za-z]+", ' ', w)
 
         # add spaces between each word
-        no_punctuations_words += " "
-    return no_punctuations_words.split()
+        alpha_only_words += w + " "
+    return alpha_only_words.split()
 
 
 def remove_learned(text, path=person):
@@ -150,12 +141,6 @@ def store_and_print_words_in_freq_order(words):
             f.write(w + "\n")
 
 
-def add_to_learned(text):
-    with open(person, 'a') as f:
-        for w in text:
-            f.write(w + "\n")
-
-
 def write_to_file(content, path):
     with open(path, 'w') as f:
         f.write(content)
@@ -179,8 +164,8 @@ def main():
     # load lemma dictionary
     load_lemma_dict()
 
-    print('person: ' + person)
-    print('new files: ' + new_files_path)
+    # print('person: ' + person)
+    # print('files: ' + new_files_path)
 
     if read_mode == 'cumulative':
         words = read_words_from_path(new_files_path)

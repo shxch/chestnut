@@ -9,7 +9,7 @@ read_mode = "cumulative"
 new_files_path = 'new_files/'
 lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
 word_frequency_file_path = 'google-books-common-words.txt'
-person = 'students/current_students/shaowei_hong.txt'
+person = 'students/current_students/ruixuan_zhu.txt'
 
 # global variables
 lemma_dict = dict()
@@ -84,6 +84,9 @@ def remove_non_alpha_chars(words):
     alpha_only_words = ""
 
     for w in words:
+        # remove soft hyphens
+        w = re.sub('­', '', w)
+        # replace non-alpha chars with spaces
         w = re.sub(r"[^A-Za-z]+", ' ', w)
 
         # add spaces between each word

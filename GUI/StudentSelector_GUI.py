@@ -8,69 +8,50 @@ studentsFolderPath = '../students/test/'
 
 
 class Ui_studentSelector(object):
-    def setupUi(self, studentSelector):
-        studentSelector.setObjectName("studentSelector")
+    def __init__(self):
         studentSelector.resize(600, 400)
-        studentSelector.setFocusPolicy(QtCore.Qt.NoFocus)
         self.centralwidget = QtWidgets.QWidget(studentSelector)
-        self.centralwidget.setObjectName("centralwidget")
-        self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
-        self.gridLayout.setObjectName("gridLayout")
+        self.btnAddStudent = QtWidgets.QPushButton(self.centralwidget)
         self.verticalLayout = QtWidgets.QVBoxLayout()
-        self.verticalLayout.setObjectName("verticalLayout")
-        self.pushButton_addStudent = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_addStudent.setObjectName("pushButton_addStudent")
-        self.verticalLayout.addWidget(self.pushButton_addStudent)
-        self.pushButton_addPassage = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_addPassage.setObjectName("pushButton_addPassage")
-        self.verticalLayout.addWidget(self.pushButton_addPassage)
+        self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
+        self.verticalLayout.addWidget(self.btnAddStudent)
+        self.btnAddPassage = QtWidgets.QPushButton(self.centralwidget)
+        self.verticalLayout.addWidget(self.btnAddPassage)
         spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout.addItem(spacerItem)
-        self.pushButton_deleteStudent = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_deleteStudent.setObjectName("pushButton_deleteStudent")
-        self.pushButton_deleteStudent.setDisabled(True)
-        self.verticalLayout.addWidget(self.pushButton_deleteStudent)
-        self.pushButton_deletePassage = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_deletePassage.setObjectName("pushButton_deletePassage")
-        self.verticalLayout.addWidget(self.pushButton_deletePassage)
+        self.btnDeleteStudent = QtWidgets.QPushButton(self.centralwidget)
+        self.btnDeleteStudent.setDisabled(True)
+        self.verticalLayout.addWidget(self.btnDeleteStudent)
+        self.btnDeletePassage = QtWidgets.QPushButton(self.centralwidget)
+        self.verticalLayout.addWidget(self.btnDeletePassage)
         self.gridLayout.addLayout(self.verticalLayout, 0, 1, 1, 1)
         self.verticalLayout_2 = QtWidgets.QVBoxLayout()
-        self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.listWidget_students = QtWidgets.QListWidget(self.centralwidget)
-        self.listWidget_students.setObjectName("listWidget_students")
-        self.verticalLayout_2.addWidget(self.listWidget_students)
+        self.listStudents = QtWidgets.QListWidget(self.centralwidget)
+        self.verticalLayout_2.addWidget(self.listStudents)
         self.gridLayout.addLayout(self.verticalLayout_2, 0, 0, 1, 1)
         studentSelector.setCentralWidget(self.centralwidget)
-        self.actionNew_Student = QtWidgets.QAction(studentSelector)
-        self.actionNew_Student.setObjectName("actionNew_Student")
-        self.actionNew_Passage = QtWidgets.QAction(studentSelector)
-        self.actionNew_Passage.setObjectName("actionNew_Passage")
-        self.actionExit = QtWidgets.QAction(studentSelector)
-        self.actionExit.setObjectName("actionExit")
-
-        self.refreshStudentsList()
-        self.pushButton_addStudent.clicked.connect(self.saveNewStudent)
-        self.pushButton_deleteStudent.clicked.connect(self.deleteStudent)
-        self.listWidget_students.itemClicked.connect(self.enableDeleteButton)
-        self.listWidget_students.itemDoubleClicked.connect(self.selectStudent)
 
         self.retranslateUi(studentSelector)
+
+        self.refreshStudentsList()
+        self.btnAddStudent.clicked.connect(self.saveNewStudent)
+        self.btnDeleteStudent.clicked.connect(self.deleteStudent)
+        self.listStudents.itemClicked.connect(self.enableDeleteButton)
+        self.listStudents.itemDoubleClicked.connect(self.selectStudent)
+
         QtCore.QMetaObject.connectSlotsByName(studentSelector)
 
     def retranslateUi(self, studentSelector):
         _translate = QtCore.QCoreApplication.translate
         studentSelector.setWindowTitle(_translate("studentSelector", "Select a Student"))
-        self.pushButton_addStudent.setText(_translate("studentSelector", "Add Student"))
-        self.pushButton_addPassage.setText(_translate("studentSelector", "Add Passage"))
-        self.pushButton_deleteStudent.setText(_translate("studentSelector", "Delete Student"))
-        self.pushButton_deletePassage.setText(_translate("studentSelector", "Delete Passage"))
-        self.actionNew_Student.setText(_translate("studentSelector", "New Student"))
-        self.actionNew_Passage.setText(_translate("studentSelector", "New Passage"))
-        self.actionExit.setText(_translate("studentSelector", "Exit"))
+        self.btnAddStudent.setText(_translate("studentSelector", "Add Student"))
+        self.btnAddPassage.setText(_translate("studentSelector", "Add Passage"))
+        self.btnDeleteStudent.setText(_translate("studentSelector", "Delete Student"))
+        self.btnDeletePassage.setText(_translate("studentSelector", "Delete Passage"))
 
     def refreshStudentsList(self):
-        self.listWidget_students.clear()
-        self.listWidget_students.addItems(os.listdir(studentsFolderPath))
+        self.listStudents.clear()
+        self.listStudents.addItems(os.listdir(studentsFolderPath))
 
     def saveNewStudent(self):
         newStudentName, ok = QInputDialog.getText(self.centralwidget, 'New Student', 'Enter New Student\'s Name')
@@ -79,10 +60,10 @@ class Ui_studentSelector(object):
             self.refreshStudentsList()
 
     def deleteStudent(self):
-        studentToBeDeleted = self.listWidget_students.currentItem().text()
+        studentToBeDeleted = self.listStudents.currentItem().text()
         msgboxConfirm = QMessageBox()
         msgboxConfirm.setWindowTitle("Delete Confirmation")
-        msgboxConfirm.setText("Delete this student's file?")
+        msgboxConfirm.setText("Are you sure you want to delete this student's file?")
         msgboxConfirm.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
 
         choice = msgboxConfirm.exec_()
@@ -91,10 +72,11 @@ class Ui_studentSelector(object):
             self.refreshStudentsList()
 
     def enableDeleteButton(self):
-        self.pushButton_deleteStudent.setEnabled(True)
+        self.btnDeleteStudent.setEnabled(True)
 
     def selectStudent(self):
-        studentSelected = self.listWidget_students.currentItem().text()
+        studentSelected = self.listStudents.currentItem().text()
+        print(studentSelected)
 
 
 if __name__ == "__main__":
@@ -103,6 +85,5 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     studentSelector = QtWidgets.QMainWindow()
     ui = Ui_studentSelector()
-    ui.setupUi(studentSelector)
     studentSelector.show()
     sys.exit(app.exec_())

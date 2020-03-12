@@ -6,10 +6,10 @@ from collections import OrderedDict
 read_mode = "cumulative"
 
 # file paths
-new_files_path = 'new_files/'
-lemma_dict_file_path = 'AntBNC_lemmas_ver_001.txt'
-word_frequency_file_path = 'google-books-common-words.txt'
-person = 'students/current_students/ruixuan_zhu.txt'
+new_files_path = '../new_files/'
+lemma_dict_file_path = '../AntBNC_lemmas_ver_001.txt'
+word_frequency_file_path = '../google-books-common-words.txt'
+person = '../students/current_students/cheng_ye.txt'
 
 # global variables
 lemma_dict = dict()

@@ -1,6 +1,6 @@
 def main():
     # read the lemma file into a list separated by lines
-    with open('AntBNC_lemmas_ver_001.txt') as file:
+    with open('../AntBNC_lemmas_ver_001.txt') as file:
         content = file.readlines()
 
     # replace tabs with whitespace

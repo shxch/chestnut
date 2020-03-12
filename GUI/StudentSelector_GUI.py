@@ -31,23 +31,19 @@ class Ui_studentSelector(object):
         self.gridLayout.addLayout(self.verticalLayout_2, 0, 0, 1, 1)
         studentSelector.setCentralWidget(self.centralwidget)
 
-        self.retranslateUi(studentSelector)
-
-        self.refreshStudentsList()
-        self.btnAddStudent.clicked.connect(self.saveNewStudent)
-        self.btnDeleteStudent.clicked.connect(self.deleteStudent)
-        self.listStudents.itemClicked.connect(self.enableDeleteButton)
-        self.listStudents.itemDoubleClicked.connect(self.selectStudent)
-
-        QtCore.QMetaObject.connectSlotsByName(studentSelector)
-
-    def retranslateUi(self, studentSelector):
         _translate = QtCore.QCoreApplication.translate
         studentSelector.setWindowTitle(_translate("studentSelector", "Select a Student"))
         self.btnAddStudent.setText(_translate("studentSelector", "Add Student"))
         self.btnAddPassage.setText(_translate("studentSelector", "Add Passage"))
         self.btnDeleteStudent.setText(_translate("studentSelector", "Delete Student"))
         self.btnDeletePassage.setText(_translate("studentSelector", "Delete Passage"))
+        QtCore.QMetaObject.connectSlotsByName(studentSelector)
+
+        self.refreshStudentsList()
+        self.btnAddStudent.clicked.connect(self.saveNewStudent)
+        self.btnDeleteStudent.clicked.connect(self.deleteStudent)
+        self.listStudents.itemClicked.connect(self.enableDeleteButton)
+        self.listStudents.itemDoubleClicked.connect(self.selectStudent)
 
     def refreshStudentsList(self):
         self.listStudents.clear()

@@ -20,6 +20,10 @@ class Ui_winSelectPassage(object):
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
         self.gridLayout.setObjectName("gridLayout")
         self.lstPassages = QtWidgets.QListWidget(self.centralwidget)
+        self.lstPassages.setAlternatingRowColors(True)
+        self.lstPassages.setSelectionMode(QtWidgets.QAbstractItemView.MultiSelection)
+        self.lstPassages.setProperty("isWrapping", False)
+        self.lstPassages.setWordWrap(True)
         self.lstPassages.setObjectName("lstPassages")
         self.gridLayout.addWidget(self.lstPassages, 0, 0, 1, 1)
         self.verticalLayout = QtWidgets.QVBoxLayout()
@@ -60,6 +64,7 @@ class Ui_winSelectPassage(object):
     def retranslateUi(self, winSelectPassage):
         _translate = QtCore.QCoreApplication.translate
         winSelectPassage.setWindowTitle(_translate("winSelectPassage", "Select Passages"))
+        self.lstPassages.setSortingEnabled(False)
         self.btnAddToList.setText(_translate("winSelectPassage", "Add To List"))
         self.btnDeleteFromList.setText(_translate("winSelectPassage", "Delete From List"))
         self.btnCreateNewPasage.setText(_translate("winSelectPassage", "Create New Passage"))
@@ -73,7 +78,6 @@ class Ui_winSelectPassage(object):
 
 if __name__ == "__main__":
     import sys
-
     app = QtWidgets.QApplication(sys.argv)
     winSelectPassage = QtWidgets.QMainWindow()
     ui = Ui_winSelectPassage()

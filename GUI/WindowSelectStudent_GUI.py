@@ -42,6 +42,7 @@ class Ui_winSelectStudent(object):
         self.verticalLayout_2 = QtWidgets.QVBoxLayout()
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.lstStudents = QtWidgets.QListWidget(self.centralwidget)
+        self.lstStudents.setAlternatingRowColors(True)
         self.lstStudents.setObjectName("lstStudents")
         self.verticalLayout_2.addWidget(self.lstStudents)
         self.gridLayout.addLayout(self.verticalLayout_2, 0, 0, 1, 1)
@@ -64,6 +65,7 @@ class Ui_winSelectStudent(object):
         self.btnAddPassage.setText(_translate("winSelectStudent", "Add Passage"))
         self.btnDeleteStudent.setText(_translate("winSelectStudent", "Delete Student"))
         self.btnDeletePassage.setText(_translate("winSelectStudent", "Delete Passage"))
+        self.lstStudents.setSortingEnabled(False)
         self.actionNew_Student.setText(_translate("winSelectStudent", "New Student"))
         self.actionNew_Passage.setText(_translate("winSelectStudent", "New Passage"))
         self.actionExit.setText(_translate("winSelectStudent", "Exit"))
@@ -71,7 +73,6 @@ class Ui_winSelectStudent(object):
 
 if __name__ == "__main__":
     import sys
-
     app = QtWidgets.QApplication(sys.argv)
     winSelectStudent = QtWidgets.QMainWindow()
     ui = Ui_winSelectStudent()

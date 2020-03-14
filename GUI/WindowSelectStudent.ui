@@ -73,7 +73,14 @@
                 <item row="0" column="0">
                     <layout class="QVBoxLayout" name="verticalLayout_2">
                         <item>
-                            <widget class="QListWidget" name="lstStudents"/>
+                            <widget class="QListWidget" name="lstStudents">
+                                <property name="alternatingRowColors">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="sortingEnabled">
+                                    <bool>false</bool>
+                                </property>
+                            </widget>
                         </item>
                     </layout>
                 </item>

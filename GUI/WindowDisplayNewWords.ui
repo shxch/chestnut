@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>winDisplayWords</class>
+ <widget class="QMainWindow" name="winDisplayWords">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Contained Words</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QTextBrowser" name="txtWords">
+      <property name="font">
+       <font>
+        <strikeout>false</strikeout>
+        <stylestrategy>PreferAntialias</stylestrategy>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+        p, li { white-space: pre-wrap; }
+        &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.1pt; font-weight:400;
+        font-style:normal;&quot;&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;here &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;himself &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;white &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;free &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;type &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;various &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;support &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;short &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;health &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;production &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;blood &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;strong &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;play &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;pressure &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;authority &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;culture &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;original &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;disease &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;standard &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;road &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;music &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;effective &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;deal &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;complex &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;article &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;demand &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;china &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;actual &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;student &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;considerable &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;pain &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;exchange &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;introduction &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;memory &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Chinese &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;variety &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;labour &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;exercise &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;inside &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;village &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;protection &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;practical &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;somewhat &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;notice &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;formation &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;race &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;balance &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;resistance &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;japan &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;machine &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;search &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;powerful &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;spiritual &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;trial &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;stay &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;perfect &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;tradition &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;speed &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;divine &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;chemical &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;maintain &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;station &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;media &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;farm &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;vision &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;apparent &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;excellent &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;reduce &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;advance &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;republic &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;ideal &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;limit &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;protein &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;personality &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;buy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;narrow &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;agriculture &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;aspect &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;radio &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;wait &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;baby &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;improvement &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cancer &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;instrument &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;bridge &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;circuit &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;frame &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;visual &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;silence &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;mechanism &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;fat &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sweet &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;increasingly &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;organic &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;noise &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;onto &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;host &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;hit &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;specifically &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;anxiety &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sick &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;kill &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;listen &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;intervention &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;decrease &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;score &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;flesh &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;blind &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;guilty &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;expensive &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;destroy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;leg &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;artificial &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;dose &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;heavily &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;compound &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sheep &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;assist &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;lesson &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;initially &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;rear &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;repeat &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;coat &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;orange &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;productive &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;harm &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;deny &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Florida &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;bag &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Australian &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;calm &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;occasional &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;controversy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;polish &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;ritual &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;tape &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sing &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;painful &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;delight &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;creature &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;silk &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cure &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;healing &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;nearby &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;motivation &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;impressed &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;eliminate &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;rush &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;repeatedly &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;modest &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Plato &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cavity &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;piano &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;weapon &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sophisticated &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cerebral &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;archbishop &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;hang &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;get rid of &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;enhance &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;immune &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;therapist &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;pregnant &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;popularity &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;abandon &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;honey &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;relaxation &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;smart &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;hormone &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;bladder &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;adequately &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;tent &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cortex &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;resistant &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;insect &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;stimulate &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;tune &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;neural &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;controversial &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;explosion &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;opponent &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;medication &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;grove &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;attach &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;spray &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;plague &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;harmful &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;neat &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;breathe &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;expose &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;headache &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;intuition &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;persistence &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;lemon &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;epidemic &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;mat &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;swear &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;duck &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;worm &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;patrol &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cultivate &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;heal &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;vendor &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;enhancement &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;civilisation &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;frog &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;spirituality &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;ant &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;dispatch &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;album &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;nausea &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;evolve &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;chemotherapy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;ancestral &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;bamboo &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;marketplace &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;snap &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;reddish &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;tackle &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;poisonous &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;workforce &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;orchard &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;dew &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sap &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Mozart &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;weaver &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;surge &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;revive &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;pest &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;lethal &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;PhD &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;harness &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;repetitive &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;bait &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;botany &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;injure &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;boost &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;neuron &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;thrive &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;educator &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;chant &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;supporter &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;bug &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;paddy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;childbirth &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;breakthrough &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cushion &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;hog &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;scepticism &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;beetle &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;circa &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;brisk &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;bio &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;citrus &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;synaptic &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sonata &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cataract &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;drawback &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;Confucian &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;sceptical &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;predatory &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;pesticide &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;migraine &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;allude &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;devour &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;caterpillar &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;secrete &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;excommunication &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;twig &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;heartbeat &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;papyrus &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;grower &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;mandarin &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;soar &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;locust &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;hippocampus &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;subtropical &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;insecticide &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;colonisation &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;classmate &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;carnivorous &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;fearsome &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;nip &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;proliferate &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;waxy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;physiologist &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;waver &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;aphid &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;walkway &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;disillusion &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;canker &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;mealy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;excommunicate &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;whoosh &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cottony &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;wormy &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;hypothesise &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;trendiness &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cannot &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;pomelo &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;memorisation &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;cutworms &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;parasitize &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0;
+        text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt;rewire &lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px;
+        margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+       </string>
+      </property>
+      <property name="acceptRichText">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QToolButton" name="btnCopy">
+        <property name="text">
+         <string>Copy</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QToolButton" name="btnBack">
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="lblNumWords">
+      <property name="text">
+       <string># words</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

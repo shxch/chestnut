@@ -4,6 +4,7 @@ from pathlib import Path
 
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QInputDialog, QMessageBox, QFileDialog
+from sortedcontainers import SortedSet
 
 from GUI.DialogSaveNewPassage_GUI import Ui_dlgSaveNewPassage
 from GUI.WindowSelectPassage_GUI import Ui_winSelectPassage
@@ -18,7 +19,7 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         # noinspection PyArgumentList
         QtWidgets.QMainWindow.__init__(self, parent)
         self.setupUi(self)
-        self.refreshStudentsList()
+        self.updateStudentsList()
         self.btnAddStudent.clicked.connect(self.addNewStudent)
         self.btnAddPassage.clicked.connect(self.openSaveNewPassageDialog)
         self.btnDeleteStudent.clicked.connect(self.deleteStudent)
@@ -26,7 +27,7 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         self.btnEditStudent.clicked.connect(self.editStudent)
         self.lstStudents.itemDoubleClicked.connect(self.openSelectPassageWindow)
 
-    def refreshStudentsList(self):
+    def updateStudentsList(self):
         self.lstStudents.clear()
         self.lstStudents.addItems(os.listdir(studentsFolderPath))
 
@@ -35,16 +36,16 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         newStudentName, ok = QInputDialog.getText(None, 'New Student', 'Enter New Student\'s Name')
         if ok:
             Path(studentsFolderPath + newStudentName).touch()
-            self.refreshStudentsList()
+            self.updateStudentsList()
 
     def editStudent(self):
         if self.lstStudents.currentItem() is not None:
             studentToBeEdited = self.lstStudents.currentItem().text()
             # noinspection PyArgumentList
             newName, ok = QInputDialog.getText(None, 'New Name', 'Enter New Name')
-            if ok and len(newName) > 0:
+            if ok and newName:
                 os.rename(studentsFolderPath + studentToBeEdited, studentsFolderPath + newName)
-                self.refreshStudentsList()
+                self.updateStudentsList()
 
     def deleteStudent(self):
         if self.lstStudents.currentItem() is not None:
@@ -57,14 +58,14 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
             choice = msgboxConfirm.exec()
             if choice == QMessageBox.Yes:
                 os.remove(studentsFolderPath + studentToBeDeleted)
-                self.refreshStudentsList()
+                self.updateStudentsList()
 
     @staticmethod
     def deletePassage():
         # noinspection PyArgumentList
-        fileToBeDeleted = QFileDialog.getOpenFileName(None, 'Delete File', passagesFolderPath, '*.txt')
-        if len(fileToBeDeleted[0]) > 0:
-            os.remove(fileToBeDeleted[0])
+        fileToBeDeleted, _ = QFileDialog.getOpenFileName(None, 'Delete File', passagesFolderPath)
+        if fileToBeDeleted:
+            os.remove(fileToBeDeleted)
 
     def openSelectPassageWindow(self):
         studentSelected = self.lstStudents.currentItem().text()
@@ -87,25 +88,56 @@ class DialogSaveNewPassage(QtWidgets.QDialog, Ui_dlgSaveNewPassage):
     def savePassage(self):
         toBeSavedText = self.plainTextEdit.toPlainText()
         # noinspection PyArgumentList
-        fileName = QFileDialog.getSaveFileName(None, 'Save File', passagesFolderPath, '*.txt')
-        if len(fileName[0]) > 0:
-            with open(fileName[0], 'w') as file:
+        fileName, _ = QFileDialog.getSaveFileName(None, 'Save File', passagesFolderPath, '*.txt')
+        if fileName:
+            with open(fileName, 'w') as file:
                 file.write(toBeSavedText)
             self.plainTextEdit.clear()
             dlgSaveNewPassage.close()
 
 
 class WindowSelectPassage(QtWidgets.QMainWindow, Ui_winSelectPassage):
+    addedPassages = SortedSet()
+
     # noinspection PyArgumentList
     def __init__(self, parent=None):
         QtWidgets.QMainWindow.__init__(self, parent)
         self.setupUi(self)
         self.btnCancel.clicked.connect(self.cancel)
+        self.btnAddToList.clicked.connect(self.addPassagesToList)
+        self.btnDeleteFromList.clicked.connect(self.deletePassagesFromList)
+        self.btnCreateNewPasage.clicked.connect(self.openSaveNewPassageDialog)
 
     def cancel(self):
-        self.update()
+        self.addedPassages.clear()
+        self.lstPassages.clear()
         self.close()
         winSelectStudent.show()
+
+    def updatePassagesList(self):
+        self.lstPassages.clear()
+        for passage in self.addedPassages:
+            self.lstPassages.addItem(Path(passage).name)
+
+    def addPassagesToList(self):
+        # noinspection PyArgumentList
+        passagesToBeAdded, _ = QFileDialog.getOpenFileNames(None, 'Add Passage', passagesFolderPath)
+        if passagesToBeAdded:
+            self.addedPassages.update(passagesToBeAdded)
+            self.updatePassagesList()
+
+    def deletePassagesFromList(self):
+        passageIndexes = self.lstPassages.selectedIndexes()
+        passageToBeDeleted = []
+        for index in passageIndexes:
+            passageToBeDeleted.append(self.addedPassages.__getitem__(index.row()))
+        for passage in passageToBeDeleted:
+            self.addedPassages.remove(passage)
+        self.updatePassagesList()
+
+    @staticmethod
+    def openSaveNewPassageDialog():
+        dlgSaveNewPassage.exec()
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import QInputDialog, QMessageBox, QFileDialog
 from sortedcontainers import SortedSet
 
 from GUI.DialogSaveNewPassage_GUI import Ui_dlgSaveNewPassage
+from GUI.WindowDisplayNewWords_GUI import Ui_winDisplayNewWords
 from GUI.WindowSelectPassage_GUI import Ui_winSelectPassage
 from GUI.WindowSelectStudent_GUI import Ui_winSelectStudent
 
@@ -107,6 +108,7 @@ class WindowSelectPassage(QtWidgets.QMainWindow, Ui_winSelectPassage):
         self.btnAddToList.clicked.connect(self.addPassagesToList)
         self.btnDeleteFromList.clicked.connect(self.deletePassagesFromList)
         self.btnCreateNewPasage.clicked.connect(self.openSaveNewPassageDialog)
+        self.btnOk.clicked.connect(self.ok)
 
     def cancel(self):
         self.addedPassages.clear()
@@ -139,12 +141,33 @@ class WindowSelectPassage(QtWidgets.QMainWindow, Ui_winSelectPassage):
     def openSaveNewPassageDialog():
         dlgSaveNewPassage.exec()
 
+    def ok(self):
+        if self.lstPassages.count() > 0:
+            self.close()
+            winDisplayNewWords.show()
+
+
+class WindowDisplayNewWords(QtWidgets.QMainWindow, Ui_winDisplayNewWords):
+
+    # noinspection PyArgumentList
+    def __init__(self, parent=None):
+        QtWidgets.QMainWindow.__init__(self, parent)
+        self.setupUi(self)
+        self.btnBack.clicked.connect(self.back)
+        # todo
+        # get_new_words
+
+    def back(self):
+        self.close()
+        winSelectPassage.show()
+
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     winSelectStudent = WindowSelectStudent()
     dlgSaveNewPassage = DialogSaveNewPassage()
     winSelectPassage = WindowSelectPassage()
+    winDisplayNewWords = WindowDisplayNewWords()
 
     winSelectStudent.show()
     sys.exit(app.exec_())

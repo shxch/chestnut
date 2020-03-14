@@ -1,23 +1,10 @@
 import os
 import re
-from collections import OrderedDict
-
-# read mode
-read_mode = "cumulative"
-
-# file paths
-new_files_path = '../new_files/'
-lemma_dict_file_path = '../AntBNC_lemmas_ver_001.txt'
-word_frequency_file_path = '../google-books-common-words.txt'
-person = '../students/current_students/cheng_ye.txt'
-
-# global variables
-lemma_dict = dict()
 
 
-def load_lemma_dict(path=lemma_dict_file_path):
+def read_lemma_dict(lemma_dict_file_path):
     # read the lemma file into a list separated by lines
-    with open(path) as file:
+    with open(lemma_dict_file_path) as file:
         content = file.readlines()
 
     # replace tabs with whitespace
@@ -27,6 +14,7 @@ def load_lemma_dict(path=lemma_dict_file_path):
     content = [x.strip() for x in content]
 
     # put everything in the dictionary
+    lemma_dict = dict()
     for x in content:
         # split ->
         t = x.split('->')
@@ -39,6 +27,7 @@ def load_lemma_dict(path=lemma_dict_file_path):
         # add a dict pair
         for i in pre_lemma_words_list:
             lemma_dict[i] = post_lemma
+    return lemma_dict
 
 
 def read_files_from_path(path):
@@ -60,6 +49,15 @@ def read_files_from_path(path):
     return files
 
 
+def read_files_from_paths(paths):
+    files = []
+
+    for path in paths:
+        files += read_files_from_path(path)
+
+    return files
+
+
 def read_words_from_files(files):
     words = []
 
@@ -68,8 +66,8 @@ def read_words_from_files(files):
 
         text_from_all_files = ''
 
-        for f in files:
-            text_from_all_files += f.read() + '\n'
+        for file in files:
+            text_from_all_files += file.read() + '\n'
 
         words = text_from_all_files.split()
 
@@ -94,8 +92,8 @@ def remove_non_alpha_chars(words):
     return alpha_only_words.split()
 
 
-def remove_learned(text, path=person):
-    learned_words = read_words_from_path(path)
+def remove_learned_words(text, person_file_path):
+    learned_words = read_words_from_path(person_file_path)
     result = []
     for w in text:
         if w not in learned_words:
@@ -103,15 +101,15 @@ def remove_learned(text, path=person):
     return result
 
 
-def get_word_frequency(path=word_frequency_file_path):
+def get_word_frequency(word_freq_file_path):
     word_freq = {}
-    for line in open(path):
+    for line in open(word_freq_file_path):
         word, freq = line.split(",")
         word_freq[word] = int(freq)
     return word_freq
 
 
-def lemmatize_words(text):
+def lemmatize_words(lemma_dict, text):
     # lower case all words
     lower_cased_words = [w.lower() for w in text]
 
@@ -123,72 +121,74 @@ def lemmatize_words(text):
             result.append(lemma_dict[w])
         else:
             result.append(w)
-
     return result
 
 
-def store_and_print_words_in_freq_order(words):
-    word_freq = get_word_frequency()
-    ordered_words = {}
-    for w in words:
-        if w in word_freq:
-            ordered_words[w] = word_freq[w]
-        else:
-            ordered_words[w] = 1
-
-    with open(person, 'a') as f:
-
-        for w in sorted(ordered_words, key=ordered_words.get, reverse=True):
-            # print(w + "," + str(ordered_words[w]))
-            print(w)
+def add_to_learned(words, person_file_path):
+    with open(person_file_path, 'a') as f:
+        for w in words:
             f.write(w + "\n")
 
 
-def write_to_file(content, path):
-    with open(path, 'w') as f:
-        f.write(content)
+def get_words_sorted_by_freq(words, word_freq_file_path):
+    word_freq = get_word_frequency(word_freq_file_path)
+    sorted_words = {}
+    for w in words:
+        if w in word_freq:
+            sorted_words[w] = word_freq[w]
+        else:
+            sorted_words[w] = 1
+
+    ret = []
+    for w in sorted(sorted_words, key=sorted_words.get, reverse=True):
+        ret.append(w)
+    return ret
 
 
-def sort_dict_by_value(unsorted_dict):
-    sorted_dict = OrderedDict(sorted(unsorted_dict.items(), key=lambda t: t[1], reverse=True))
-    return sorted_dict
-
-
-def process_words(words):
+def standardize_words(lemma_dict, words):
     words = remove_non_alpha_chars(words)
-    words = lemmatize_words(words)
+    words = lemmatize_words(lemma_dict, words)
     words = set(words)
-    words = remove_learned(words)
 
     return words
 
 
+def get_new_words_from_passages_for_student(student_file_path, passage_files_paths, output_mode):
+    word_freq_file_path = '../google-books-common-words.txt'
+    lemma_dict = read_lemma_dict('../AntBNC_lemmas_ver_001.txt')
+
+    new_files = read_files_from_paths(passage_files_paths)
+
+    if output_mode == 'cumulative':
+        new_words = read_words_from_files(new_files)
+        new_words = standardize_words(lemma_dict, new_words)
+        new_words = remove_learned_words(new_words, student_file_path)
+        sorted_words = get_words_sorted_by_freq(new_words, word_freq_file_path)
+        add_to_learned(sorted_words, student_file_path)
+        return sorted_words
+
+    elif output_mode == 'separate':
+
+        ret = []
+        for f in new_files:
+            new_words = f.read().split()
+            new_words = standardize_words(lemma_dict, new_words)
+            new_words = remove_learned_words(new_words, student_file_path)
+            sorted_words = get_words_sorted_by_freq(new_words, word_freq_file_path)
+            add_to_learned(sorted_words, student_file_path)
+
+            ret += ''
+            ret += f.name
+            ret += sorted_words
+        return ret
+
+
 def main():
-    # load lemma dictionary
-    load_lemma_dict()
+    new_file_dir_path = '../new_files/'
+    student_file_path = '../students/test/miniming'
+    output_mode = "separate"
 
-    # print('person: ' + person)
-    # print('files: ' + new_files_path)
-
-    if read_mode == 'cumulative':
-        words = read_words_from_path(new_files_path)
-
-        words = process_words(words)
-
-        store_and_print_words_in_freq_order(words)
-
-    elif read_mode == 'separate':
-
-        files = read_files_from_path(new_files_path)
-
-        for f in files:
-            words = f.read().split()
-
-            words = process_words(words)
-
-            print()
-            print(f.name)
-            store_and_print_words_in_freq_order(words)
+    get_new_words_from_passages_for_student(student_file_path, [new_file_dir_path], output_mode)
 
 
 if __name__ == "__main__":

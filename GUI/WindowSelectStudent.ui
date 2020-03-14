@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>winSelectStudent</class>
+    <widget class="QMainWindow" name="winSelectStudent">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>600</width>
+                <height>400</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="windowTitle">
+            <string>Select a Student</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QGridLayout" name="gridLayout">
+                <item row="0" column="1">
+                    <layout class="QVBoxLayout" name="verticalLayout">
+                        <item>
+                            <widget class="QPushButton" name="btnAddStudent">
+                                <property name="text">
+                                    <string>Add Student</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnEditStudent">
+                                <property name="text">
+                                    <string>Edit Student</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnAddPassage">
+                                <property name="text">
+                                    <string>Add Passage</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <spacer name="verticalSpacer">
+                                <property name="orientation">
+                                    <enum>Qt::Vertical</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>20</width>
+                                        <height>40</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnDeleteStudent">
+                                <property name="text">
+                                    <string>Delete Student</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnDeletePassage">
+                                <property name="text">
+                                    <string>Delete Passage</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </item>
+                <item row="0" column="0">
+                    <layout class="QVBoxLayout" name="verticalLayout_2">
+                        <item>
+                            <widget class="QListWidget" name="lstStudents"/>
+                        </item>
+                    </layout>
+                </item>
+            </layout>
+        </widget>
+        <action name="actionNew_Student">
+            <property name="text">
+                <string>New Student</string>
+            </property>
+        </action>
+        <action name="actionNew_Passage">
+            <property name="text">
+                <string>New Passage</string>
+            </property>
+        </action>
+        <action name="actionExit">
+            <property name="text">
+                <string>Exit</string>
+            </property>
+        </action>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

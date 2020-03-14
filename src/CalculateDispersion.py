@@ -1,5 +1,6 @@
-import nltk
 import os
+
+import nltk
 from nltk.stem import WordNetLemmatizer
 
 

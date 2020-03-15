@@ -29,9 +29,9 @@ class Ui_winDisplayNewWords(object):
         self.gridLayout.addWidget(self.txtNewWords, 1, 0, 1, 1)
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
-        self.btnCopyAllWords = QtWidgets.QPushButton(self.centralwidget)
-        self.btnCopyAllWords.setObjectName("btnCopyAllWords")
-        self.verticalLayout.addWidget(self.btnCopyAllWords)
+        self.btnCopytoClipboard = QtWidgets.QPushButton(self.centralwidget)
+        self.btnCopytoClipboard.setObjectName("btnCopytoClipboard")
+        self.verticalLayout.addWidget(self.btnCopytoClipboard)
         spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout.addItem(spacerItem)
         self.btnBack = QtWidgets.QPushButton(self.centralwidget)
@@ -48,21 +48,20 @@ class Ui_winDisplayNewWords(object):
 
     def retranslateUi(self, winDisplayNewWords):
         _translate = QtCore.QCoreApplication.translate
-        winDisplayNewWords.setWindowTitle(_translate("winDisplayNewWords", "Contained Words"))
+        winDisplayNewWords.setWindowTitle(_translate("winDisplayNewWords", "New Words"))
         self.txtNewWords.setHtml(_translate("winDisplayNewWords",
                                             "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
                                             "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
                                             "p, li { white-space: pre-wrap; }\n"
                                             "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.1pt; font-weight:400; font-style:normal;\">\n"
                                             "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
-        self.btnCopyAllWords.setText(_translate("winDisplayNewWords", "Copy All Words"))
+        self.btnCopytoClipboard.setText(_translate("winDisplayNewWords", "Copy to Clipboard"))
         self.btnBack.setText(_translate("winDisplayNewWords", "Back"))
         self.lblNumWords.setText(_translate("winDisplayNewWords", "# words"))
 
 
 if __name__ == "__main__":
     import sys
-
     app = QtWidgets.QApplication(sys.argv)
     winDisplayNewWords = QtWidgets.QMainWindow()
     ui = Ui_winDisplayNewWords()

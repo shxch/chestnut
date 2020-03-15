@@ -1,5 +1,6 @@
 import os
 import re
+from pathlib import Path
 
 
 def read_lemma_dict(lemma_dict_file_path):
@@ -153,7 +154,7 @@ def standardize_words(lemma_dict, words):
     return words
 
 
-def get_new_words_from_passages_for_student(student_file_path, passage_files_paths, output_mode):
+def get_new_words(student_file_path, passage_files_paths, output_mode):
     word_freq_file_path = '../google-books-common-words.txt'
     lemma_dict = read_lemma_dict('../AntBNC_lemmas_ver_001.txt')
 
@@ -177,8 +178,8 @@ def get_new_words_from_passages_for_student(student_file_path, passage_files_pat
             sorted_words = get_words_sorted_by_freq(new_words, word_freq_file_path)
             add_to_learned(sorted_words, student_file_path)
 
-            ret += ''
-            ret += f.name
+            ret.append(' ')
+            ret.append(Path(f.name).stem)
             ret += sorted_words
         return ret
 
@@ -188,7 +189,7 @@ def main():
     student_file_path = '../students/test/miniming'
     output_mode = "separate"
 
-    get_new_words_from_passages_for_student(student_file_path, [new_file_dir_path], output_mode)
+    get_new_words(student_file_path, [new_file_dir_path], output_mode)
 
 
 if __name__ == "__main__":

@@ -18,58 +18,6 @@
         </property>
         <widget class="QWidget" name="centralwidget">
             <layout class="QGridLayout" name="gridLayout">
-                <item row="0" column="1">
-                    <layout class="QVBoxLayout" name="verticalLayout">
-                        <item>
-                            <widget class="QPushButton" name="btnAddStudent">
-                                <property name="text">
-                                    <string>Add Student</string>
-                                </property>
-                            </widget>
-                        </item>
-                        <item>
-                            <widget class="QPushButton" name="btnEditStudent">
-                                <property name="text">
-                                    <string>Edit Student</string>
-                                </property>
-                            </widget>
-                        </item>
-                        <item>
-                            <widget class="QPushButton" name="btnAddPassage">
-                                <property name="text">
-                                    <string>Add Passage</string>
-                                </property>
-                            </widget>
-                        </item>
-                        <item>
-                            <spacer name="verticalSpacer">
-                                <property name="orientation">
-                                    <enum>Qt::Vertical</enum>
-                                </property>
-                                <property name="sizeHint" stdset="0">
-                                    <size>
-                                        <width>20</width>
-                                        <height>40</height>
-                                    </size>
-                                </property>
-                            </spacer>
-                        </item>
-                        <item>
-                            <widget class="QPushButton" name="btnDeleteStudent">
-                                <property name="text">
-                                    <string>Delete Student</string>
-                                </property>
-                            </widget>
-                        </item>
-                        <item>
-                            <widget class="QPushButton" name="btnDeletePassage">
-                                <property name="text">
-                                    <string>Delete Passage</string>
-                                </property>
-                            </widget>
-                        </item>
-                    </layout>
-                </item>
                 <item row="0" column="0">
                     <layout class="QVBoxLayout" name="verticalLayout_2">
                         <item>
@@ -86,6 +34,36 @@
                 </item>
             </layout>
         </widget>
+        <widget class="QMenuBar" name="menuBar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>600</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <widget class="QMenu" name="menuStudent">
+                <property name="title">
+                    <string>Student</string>
+                </property>
+                <addaction name="actionNewStudent"/>
+                <addaction name="actionOpenStudentFile"/>
+                <addaction name="actionRenameStudent"/>
+                <addaction name="actionDeleteStudent"/>
+            </widget>
+            <widget class="QMenu" name="menuPassage">
+                <property name="title">
+                    <string>Passage</string>
+                </property>
+                <addaction name="actionNewPassage"/>
+                <addaction name="actionOpenPassageFile"/>
+                <addaction name="actionRenamePassage"/>
+                <addaction name="actionDeletePassage"/>
+            </widget>
+            <addaction name="menuStudent"/>
+            <addaction name="menuPassage"/>
+        </widget>
         <action name="actionNew_Student">
             <property name="text">
                 <string>New Student</string>
@@ -99,6 +77,46 @@
         <action name="actionExit">
             <property name="text">
                 <string>Exit</string>
+            </property>
+        </action>
+        <action name="actionNewStudent">
+            <property name="text">
+                <string>New</string>
+            </property>
+        </action>
+        <action name="actionRenameStudent">
+            <property name="text">
+                <string>Rename</string>
+            </property>
+        </action>
+        <action name="actionOpenStudentFile">
+            <property name="text">
+                <string>Open File</string>
+            </property>
+        </action>
+        <action name="actionDeleteStudent">
+            <property name="text">
+                <string>Delete</string>
+            </property>
+        </action>
+        <action name="actionNewPassage">
+            <property name="text">
+                <string>New</string>
+            </property>
+        </action>
+        <action name="actionOpenPassageFile">
+            <property name="text">
+                <string>Open File</string>
+            </property>
+        </action>
+        <action name="actionDeletePassage">
+            <property name="text">
+                <string>Delete</string>
+            </property>
+        </action>
+        <action name="actionRenamePassage">
+            <property name="text">
+                <string>Rename</string>
             </property>
         </action>
     </widget>

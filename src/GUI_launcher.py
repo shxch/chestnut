@@ -12,8 +12,9 @@ from GUI.WindowSelectPassage_GUI import Ui_winSelectPassage
 from GUI.WindowSelectStudent_GUI import Ui_winSelectStudent
 from src.PrintNewWordsFromTexts import get_new_words
 
-studentsFolderPath = '../students/current_students/'
+studentsFolderPath = '../students/'
 passagesFolderPath = '../materials/'
+projectAbsPath = 'C:/Users/shenx/PycharmProjects/TPOWordFrequency/'
 
 
 class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
@@ -23,65 +24,61 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         QtWidgets.QMainWindow.__init__(self, parent)
         self.setupUi(self)
         self.setMenuBar(MenuBar())
-        self.studentsFilePaths = []
-        self.updateStudentsList()
+        self.fileModel = QtWidgets.QFileSystemModel()
+        self.fileModel.setRootPath('')
+        self.tvwStudents.setModel(self.fileModel)
+        self.tvwStudents.setRootIndex(self.fileModel.index(projectAbsPath + 'students'))
+        self.tvwStudents.hideColumn(1)
+        self.tvwStudents.hideColumn(2)
+        self.tvwStudents.hideColumn(3)
+        self.tvwStudents.doubleClicked.connect(self.openStudentFile)
         self.btnNewStudent.clicked.connect(self.addNewStudent)
         self.btnDelete.clicked.connect(self.deleteStudent)
         self.btnRename.clicked.connect(self.renameStudent)
-        self.lstStudents.itemDoubleClicked.connect(self.openStudentFile)
         self.btnNext.clicked.connect(self.openSelectPassageWindow)
 
-    def updateStudentsList(self):
-        # clear stored data and list view
-        self.lstStudents.clear()
-        self.studentsFilePaths.clear()
-
-        # store all students file in the directory and show them in the list view
-        for fileName in os.listdir(studentsFolderPath):
-            self.studentsFilePaths.append(studentsFolderPath + fileName)
-            self.lstStudents.addItem(Path(fileName).stem)
-
-        # if there's at least one file, make it selected
-        if self.lstStudents.count() > 0:
-            self.lstStudents.setCurrentRow(0)
-
     def addNewStudent(self):
+        index = self.tvwStudents.currentIndex()
+        currentFilePath = self.fileModel.filePath(index)
         # noinspection PyArgumentList
         newStudentName, ok = QInputDialog.getText(None, 'New Student', 'Enter New Student\'s Name')
         if ok:
-            Path(studentsFolderPath + newStudentName + '.txt').touch()
-            self.updateStudentsList()
+            if os.path.isfile(currentFilePath):
+                newFolderPath = Path(currentFilePath).parent
+            else:
+                newFolderPath = Path(currentFilePath)
+            Path(newFolderPath.joinpath(Path(newStudentName))).touch()
 
     def renameStudent(self):
-        studentToBeEditedFilePath = self.studentsFilePaths[self.lstStudents.currentIndex().row()]
+        index = self.tvwStudents.currentIndex()
         # noinspection PyArgumentList
         newName, ok = QInputDialog.getText(None, 'New Name', 'Enter New Name', QLineEdit.Normal,
-                                           Path(studentToBeEditedFilePath).stem)
+                                           self.fileModel.fileName(index))
         if ok and newName:
-            os.rename(studentToBeEditedFilePath, studentsFolderPath + newName + '.txt')
-            self.updateStudentsList()
+            os.rename(self.fileModel.filePath(index), Path(self.fileModel.filePath(index)).parent.joinpath(newName))
 
     def deleteStudent(self):
-        studentToBeDeletedFilePath = self.studentsFilePaths[self.lstStudents.currentIndex().row()]
+        index = self.tvwStudents.currentIndex()
         msgboxConfirm = QMessageBox()
         msgboxConfirm.setWindowTitle("Delete Confirmation")
-        msgboxConfirm.setText("Are you sure you want to delete " + Path(studentToBeDeletedFilePath).stem + "?")
+        msgboxConfirm.setText("Are you sure you want to delete " + self.fileModel.fileName(index) + "?")
         msgboxConfirm.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
 
         choice = msgboxConfirm.exec()
         if choice == QMessageBox.Yes:
-            os.remove(studentToBeDeletedFilePath)
-            self.updateStudentsList()
+            os.remove(self.fileModel.filePath(index))
 
     def openSelectPassageWindow(self):
-        selectedStudentFilePath = self.studentsFilePaths[self.lstStudents.currentIndex().row()]
-        winSelectPassage.selectedStudentFilePath = selectedStudentFilePath
+        index = self.tvwStudents.currentIndex()
+        winSelectPassage.selectedStudentFilePath = self.fileModel.filePath(index)
         winSelectPassage.show()
-        winSelectPassage.setWindowTitle(Path(selectedStudentFilePath).stem + ' - Select Passages')
+        winSelectPassage.setWindowTitle(self.fileModel.fileName(index) + ' - Select Passages')
         winSelectStudent.close()
 
-    def openStudentFile(self):
-        os.system("notepad " + self.studentsFilePaths[self.lstStudents.currentIndex().row()])
+    def openStudentFile(self, index):
+        filePath = self.fileModel.filePath(index)
+        if os.path.isfile(filePath):
+            os.system('notepad ' + filePath)
 
 
 class WindowSelectPassage(QtWidgets.QMainWindow, Ui_winSelectPassage):
@@ -132,8 +129,8 @@ class WindowSelectPassage(QtWidgets.QMainWindow, Ui_winSelectPassage):
             winDisplayNewWords.displayNewWords()
             winDisplayNewWords.show()
 
-    def openPassageFile(self):
-        os.system("notepad " + self.addedPassagesFilePaths[self.lstPassages.currentIndex().row()])
+    def openPassageFile(self, index):
+        os.system("notepad " + self.addedPassagesFilePaths[index.row()])
 
 
 class WindowDisplayNewWords(QtWidgets.QMainWindow, Ui_winDisplayNewWords):
@@ -185,6 +182,7 @@ class MenuBar(QtWidgets.QMenuBar, Ui_mnb):
 
     @staticmethod
     def openPassageFile():
+        # noinspection PyArgumentList
         fileToBeOpened, _ = QFileDialog.getOpenFileName(None, 'Open File', passagesFolderPath)
         if fileToBeOpened:
             os.system("notepad " + fileToBeOpened)

@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtWidgets
 class Ui_winSelectStudent(object):
     def setupUi(self, winSelectStudent):
         winSelectStudent.setObjectName("winSelectStudent")
-        winSelectStudent.resize(600, 400)
+        winSelectStudent.resize(800, 600)
         winSelectStudent.setFocusPolicy(QtCore.Qt.NoFocus)
         self.centralwidget = QtWidgets.QWidget(winSelectStudent)
         self.centralwidget.setObjectName("centralwidget")
@@ -21,10 +21,9 @@ class Ui_winSelectStudent(object):
         self.gridLayout.setObjectName("gridLayout")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout()
         self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.lstStudents = QtWidgets.QListWidget(self.centralwidget)
-        self.lstStudents.setAlternatingRowColors(True)
-        self.lstStudents.setObjectName("lstStudents")
-        self.verticalLayout_2.addWidget(self.lstStudents)
+        self.tvwStudents = QtWidgets.QTreeView(self.centralwidget)
+        self.tvwStudents.setObjectName("tvwStudents")
+        self.verticalLayout_2.addWidget(self.tvwStudents)
         self.gridLayout.addLayout(self.verticalLayout_2, 0, 0, 1, 1)
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
@@ -51,7 +50,6 @@ class Ui_winSelectStudent(object):
     def retranslateUi(self, winSelectStudent):
         _translate = QtCore.QCoreApplication.translate
         winSelectStudent.setWindowTitle(_translate("winSelectStudent", "Select a Student"))
-        self.lstStudents.setSortingEnabled(False)
         self.btnNewStudent.setText(_translate("winSelectStudent", "New Student"))
         self.btnRename.setText(_translate("winSelectStudent", "Rename"))
         self.btnDelete.setText(_translate("winSelectStudent", "Delete"))

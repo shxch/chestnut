@@ -179,10 +179,12 @@ class MenuBar(QtWidgets.QMenuBar, Ui_mnb):
         self.actionNewPassage.triggered.connect(self.createNewPassage)
         self.actionOpenPassageFile.triggered.connect(self.openPassageFile)
 
-    def createNewPassage(self):
+    @staticmethod
+    def createNewPassage():
         os.system("notepad")
 
-    def openPassageFile(self):
+    @staticmethod
+    def openPassageFile():
         fileToBeOpened, _ = QFileDialog.getOpenFileName(None, 'Open File', passagesFolderPath)
         if fileToBeOpened:
             os.system("notepad " + fileToBeOpened)

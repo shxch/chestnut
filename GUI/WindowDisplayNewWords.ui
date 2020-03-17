@@ -30,8 +30,10 @@
               p, li { white-space: pre-wrap; }
               &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.1pt;
               font-weight:400; font-style:normal;&quot;&gt;
-              &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px;
-              margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+              &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;
+              -qt-block-indent:0; text-indent:0px;&quot;&gt; &lt;/p&gt;
+              &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;
+              -qt-block-indent:0; text-indent:0px;&quot;&gt; &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
           </string>
       </property>
       <property name="acceptRichText">
@@ -41,13 +43,13 @@
     </item>
     <item row="1" column="1">
      <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-          <widget class="QPushButton" name="btnCopytoClipboard">
-              <property name="text">
-                  <string>Copy to Clipboard</string>
-              </property>
-          </widget>
-      </item>
+         <item>
+             <widget class="QPushButton" name="btnCopytoClipboard">
+                 <property name="text">
+                     <string>Copy to Clipboard</string>
+                 </property>
+             </widget>
+         </item>
       <item>
        <spacer name="verticalSpacer">
         <property name="orientation">

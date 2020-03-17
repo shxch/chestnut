@@ -32,93 +32,53 @@
                         </item>
                     </layout>
                 </item>
+                <item row="0" column="1">
+                    <layout class="QVBoxLayout" name="verticalLayout">
+                        <item>
+                            <widget class="QPushButton" name="btnNewStudent">
+                                <property name="text">
+                                    <string>New Student</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnRename">
+                                <property name="text">
+                                    <string>Rename</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnDelete">
+                                <property name="text">
+                                    <string>Delete</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <spacer name="verticalSpacer">
+                                <property name="orientation">
+                                    <enum>Qt::Vertical</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>20</width>
+                                        <height>40</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnNext">
+                                <property name="text">
+                                    <string>Next</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </item>
             </layout>
         </widget>
-        <widget class="QMenuBar" name="menuBar">
-            <property name="geometry">
-                <rect>
-                    <x>0</x>
-                    <y>0</y>
-                    <width>600</width>
-                    <height>20</height>
-                </rect>
-            </property>
-            <widget class="QMenu" name="menuStudent">
-                <property name="title">
-                    <string>Student</string>
-                </property>
-                <addaction name="actionNewStudent"/>
-                <addaction name="actionOpenStudentFile"/>
-                <addaction name="actionRenameStudent"/>
-                <addaction name="actionDeleteStudent"/>
-            </widget>
-            <widget class="QMenu" name="menuPassage">
-                <property name="title">
-                    <string>Passage</string>
-                </property>
-                <addaction name="actionNewPassage"/>
-                <addaction name="actionOpenPassageFile"/>
-                <addaction name="actionRenamePassage"/>
-                <addaction name="actionDeletePassage"/>
-            </widget>
-            <addaction name="menuStudent"/>
-            <addaction name="menuPassage"/>
-        </widget>
-        <action name="actionNew_Student">
-            <property name="text">
-                <string>New Student</string>
-            </property>
-        </action>
-        <action name="actionNew_Passage">
-            <property name="text">
-                <string>New Passage</string>
-            </property>
-        </action>
-        <action name="actionExit">
-            <property name="text">
-                <string>Exit</string>
-            </property>
-        </action>
-        <action name="actionNewStudent">
-            <property name="text">
-                <string>New</string>
-            </property>
-        </action>
-        <action name="actionRenameStudent">
-            <property name="text">
-                <string>Rename</string>
-            </property>
-        </action>
-        <action name="actionOpenStudentFile">
-            <property name="text">
-                <string>Open File</string>
-            </property>
-        </action>
-        <action name="actionDeleteStudent">
-            <property name="text">
-                <string>Delete</string>
-            </property>
-        </action>
-        <action name="actionNewPassage">
-            <property name="text">
-                <string>New</string>
-            </property>
-        </action>
-        <action name="actionOpenPassageFile">
-            <property name="text">
-                <string>Open File</string>
-            </property>
-        </action>
-        <action name="actionDeletePassage">
-            <property name="text">
-                <string>Delete</string>
-            </property>
-        </action>
-        <action name="actionRenamePassage">
-            <property name="text">
-                <string>Rename</string>
-            </property>
-        </action>
     </widget>
     <resources/>
     <connections/>

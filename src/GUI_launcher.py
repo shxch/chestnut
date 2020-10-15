@@ -12,9 +12,9 @@ from GUI.WindowSelectPassage_GUI import Ui_winSelectPassage
 from GUI.WindowSelectStudent_GUI import Ui_winSelectStudent
 from src.PrintNewWordsFromTexts import get_new_words
 
-studentsFolderPath = '../students/'
-passagesFolderPath = '../materials/'
 projectAbsPath = 'C:/Users/shenx/PycharmProjects/TPOWordFrequency/'
+passagesFolderPath = projectAbsPath + 'materials/'
+studentsFolderPath = projectAbsPath + 'students/'
 
 
 class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
@@ -27,7 +27,7 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         self.fileModel = QtWidgets.QFileSystemModel()
         self.fileModel.setRootPath('')
         self.tvwStudents.setModel(self.fileModel)
-        self.tvwStudents.setRootIndex(self.fileModel.index(projectAbsPath + 'students'))
+        self.tvwStudents.setRootIndex(self.fileModel.index(studentsFolderPath))
         self.tvwStudents.hideColumn(1)
         self.tvwStudents.hideColumn(2)
         self.tvwStudents.hideColumn(3)

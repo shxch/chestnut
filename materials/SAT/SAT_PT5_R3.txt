@@ -1,0 +1,275 @@
+Questions 22-31 are based on the following
+passage and supplementary material.
+This passage is adapted from Bryan Walsh, “Whole Food
+Blues: Why Organic Agriculture May Not Be So Sustainable.”
+©2012 by Time Inc.
+When it comes to energy, everyone loves
+efficiency. Cutting energy waste is one of those goals
+that both sides of the political divide can agree on,
+even if they sometimes diverge on how best to get
+there. Energy efficiency allows us to get more out of
+our given resources, which is good for the economy
+and (mostly) good for the environment as well. In
+an increasingly hot and crowded world, the only
+sustainable way to live is to get more out of less.
+Every environmentalist would agree.
+But change the conversation to food, and
+suddenly efficiency doesn’t look so good.
+Conventional industrial agriculture has become
+incredibly efficient on a simple land to food basis.
+Thanks to fertilizers, mechanization and irrigation,
+each American farmer feeds over 155 people
+worldwide. Conventional farming gets more and
+more crop per square foot of cultivated land—
+over 170 bushels of corn per acre in Iowa, for
+example—which can mean less territory needs to
+be converted from wilderness to farmland.
+And since a third of the planet is already used for
+agriculture—destroying forests and other wild
+habitats along the way—anything that could help us
+produce more food on less land would seem to be
+good for the environment.
+Of course, that’s not how most environmentalists
+regard their arugula [a leafy green]. They have
+embraced organic food as better for the planet—and
+healthier and tastier, too—than the stuff produced by
+agricultural corporations. Environmentalists disdain
+the enormous amounts of energy needed and waste
+created by conventional farming, while organic
+practices—forgoing artificial fertilizers and chemical
+pesticides—are considered far more sustainable.
+Sales of organic food rose 7.7% in 2010, up to $26.7
+billion—and people are making those purchases for
+their consciences as much as their taste buds.
+Yet a new meta-analysis in Nature does the math
+and comes to a hard conclusion: organic farming
+yields 25% fewer crops on average than conventional
+agriculture. More land is therefore needed to
+produce fewer crops—and that means organic
+farming may not be as good for the planet as
+we think.
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Line
+5
+10
+15
+20
+25
+30
+35
+40
+45
+Unauthorized copying or reuse of any part of this page is illegal.
+8
+CONTINUE
+In the Nature analysis, scientists from McGill
+University in Montreal and the University of
+Minnesota performed an analysis of 66 studies
+comparing conventional and organic methods across
+34 different crop species, from fruits to grains to
+legumes. They found that organic farming delivered
+a lower yield for every crop type, though the disparity
+varied widely. For rain-watered legume crops like
+beans or perennial crops like fruit trees, organic
+trailed conventional agriculture by just 5%. Yet for
+major cereal crops like corn or wheat, as well as most
+vegetables—all of which provide the bulk of the
+world’s calories—conventional agriculture
+outperformed organics by more than 25%.
+The main difference is nitrogen, the chemical key
+to plant growth. Conventional agriculture makes use
+of 171 million metric tons of synthetic fertilizer each
+year, and all that nitrogen enables much faster plant
+growth than the slower release of nitrogen from the
+compost or cover crops used in organic farming.
+When we talk about a Green Revolution, we really
+mean a nitrogen revolution—along with a lot
+of water.
+But not all the nitrogen used in conventional
+fertilizer ends up in crops—much of it ends up
+running off the soil and into the oceans, creating vast
+polluted dead zones. We’re already putting more
+nitrogen into the soil than the planet can stand over
+the long term. And conventional agriculture also
+depends heavily on chemical pesticides, which can
+have unintended side effects.
+What that means is that while conventional
+agriculture is more efficient—sometimes much more
+efficient—than organic farming, there are trade-offs
+with each. So an ideal global agriculture system, in
+the views of the study’s authors, may borrow the best
+from both systems, as Jonathan Foley of the
+University of Minnesota explained:
+The bottom line? Today’s organic farming
+practices are probably best deployed in fruit and
+vegetable farms, where growing nutrition (not
+just bulk calories) is the primary goal. But for
+delivering sheer calories, especially in our staple
+crops of wheat, rice, maize, soybeans and so on,
+conventional farms have the advantage right
+now.
+Looking forward, I think we will need to deploy
+different kinds of practices (especially new,
+mixed approaches that take the best of organic
+and conventional farming systems) where they
+are best suited—geographically, economically,
+socially, etc.
+1 1 .......................................................................................................................................................................................
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+Unauthorized copying or reuse of any part of this page is illegal.
+9
+CONTINUE
+Figure 1
+100% 120%
+Crop Type
+Organic Yield as a Percentage of
+Conventional Yield, by Crop Type
+40% 60% 80%
+all crops (316)
+fruits (14)
+oilseed crops (28)
+cereals (161)
+vegetables (82)
+At 100%, the organic yield is the same as
+the conventional yield. The number of
+observations for each crop type is shown
+in parentheses.
+1 1
+Unauthorized copying or reuse of any part of this page is illegal. CONTINUE
+Figure 2
+Organic Yield as a Percentage of
+Conventional Yield, by Species
+Species
+40% 60% 80% 100% 120%
+maize (74)
+barley (19)
+wheat (53)
+tomato (35)
+soybean (25)
+At 100%, the organic yield is the same as
+the conventional yield. The number of
+observations for each species is shown in
+parentheses.
+Figures adapted from Verena Seufert, Navin Ramankutty, and Jonathan A. Foley,
+“Comparing the Yields of Organic and Conventional Agriculture.” ©2012
+by Nature Publishing Group.
+10
+22
+As used in line 14, “simple” most nearly means
+A) straightforward.
+B) modest.
+C) unadorned.
+D) easy.
+23
+According to the passage, a significant attribute of
+conventional agriculture is its ability to
+A) produce a wide variety of fruits and vegetables.
+B) maximize the output of cultivated land.
+C) satisfy the dietary needs of the world’s
+population.
+D) lessen the necessity of nitrogen in plant growth.
+24
+Which choice best reflects the perspective of the
+“environmentalists” (line 27) on conventional
+agriculture?
+A) It produces inferior fruits and vegetables and is
+detrimental to the environment.
+B) It is energy efficient and reduces the need to
+convert wilderness to farmland.
+C) It is good for the environment only in the
+short run.
+D) It depletes critical resources but protects wildlife
+habitats.
+1 1
+Unauthorized copying or reuse of any part of this page is illegal. CONTINUE
+25
+Which choice provides the best evidence for the
+answer to the previous question?
+A) Lines 27-28 (“Of course... green”)
+B) Lines 28-31 (“They... corporations”)
+C) Lines 31-35 (“Environmentalists...
+sustainable”)
+D) Lines 42-45 (“More... think”)
+...............................................................................................................................................................................................................................................................................................................
+11
+26
+Which statement best expresses a relationship
+between organic farming and conventional farming
+that is presented in the passage?
+A) Both are equally sustainable, but they differ
+dramatically in the amount of land they require
+to produce equivalent yields.
+B) Both rely on artificial chemicals for pest control,
+but organic farmers use the chemicals sparingly
+in conjunction with natural remedies.
+C) Both use nitrogen to encourage plant growth,
+but the nitrogen used in conventional farming
+comes from synthetic sources.
+D) Both create a substantial amount of nitrogen
+runoff, but only the type of nitrogen found in
+fertilizers used in conventional farming can be
+dangerous.
+27
+Which choice provides the best evidence for the
+answer to the previous question?
+A) Lines 13-14 (“Conventional... basis”)
+B) Lines 22-26 (“And since... environment”)
+C) Lines 51-53 (“They... widely”)
+D) Lines 61-65 (“Conventional... farming”)
+28
+According to Foley, an “ideal global agriculture
+system” (line 80)
+A) focuses primarily on yield percentages and
+global markets.
+B) considers multiple factors in the selection of
+farming techniques.
+C) weighs the economic interests of farmers against
+the needs of consumers.
+D) puts the nutritional value of produce first and
+foremost.
+29
+In line 88, “sheer” most nearly means
+A) transparent.
+B) abrupt.
+C) steep.
+D) pure.
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Unauthorized copying or reuse of any part of this page is illegal.
+12
+CONTINUE
+30
+Which statement is best supported by the
+information provided in figure 1?
+A) The organic yield as a percentage of
+conventional yield is greater for vegetables
+than for fruits.
+B) The organic yield as a percentage of
+conventional yield is similar for cereals and
+all crops.
+C) The reported number of observations for each
+crop type exceeds 82.
+D) The organic yield as a percentage of
+conventional yield is greater for vegetable crops
+than it is for oilseed crops.
+31
+Which of the following claims is supported by
+figure 2?
+A) Of the organically grown species represented,
+soybeans have the lowest yield.
+B) The organically grown maize and barley
+represented are comparable in their yields to
+conventionally grown maize and barley.
+C) Of the organically grown species represented,
+tomatoes have the highest yield.
+D) The organically grown species represented have
+lower yields than their conventionally grown
+counterparts do

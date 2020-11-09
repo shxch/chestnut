@@ -1,0 +1,236 @@
+Questions 32-41 are based on the following
+passage and supplementary material.
+This passage is adapted from John Bohannon, “Why You
+Shouldn’t Trust Internet Comments.” ©2013 by American
+Association for the Advancement of Science.
+The “wisdom of crowds” has become a mantra of
+the Internet age. Need to choose a new vacuum
+cleaner? Check out the reviews on online merchant
+Amazon. But a new study suggests that such online
+scores don’t always reveal the best choice. A massive
+controlled experiment of Web users finds that such
+ratings are highly susceptible to irrational “herd
+behavior”—and that the herd can be manipulated.
+Sometimes the crowd really is wiser than you. The
+classic examples are guessing the weight of a bull or
+the number of gumballs in a jar. Your guess is
+probably going to be far from the mark, whereas the
+average of many people’s choices is remarkably close
+to the true number.
+But what happens when the goal is to judge
+something less tangible, such as the quality or worth
+of a product? According to one theory, the wisdom
+of the crowd still holds—measuring the aggregate of
+people’s opinions produces a stable, reliable
+value. Skeptics, however, argue that people’s
+opinions are easily swayed by those of others. So
+nudging a crowd early on by presenting contrary
+opinions—for example, exposing them to some very
+good or very bad attitudes—will steer the crowd in a
+different direction. To test which hypothesis is true,
+you would need to manipulate huge numbers of
+people, exposing them to false information and
+determining how it affects their opinions.
+A team led by Sinan Aral, a network scientist at
+the Massachusetts Institute of Technology in
+Cambridge, did exactly that. Aral has been secretly
+working with a popular website that aggregates news
+stories. The website allows users to make comments
+about news stories and vote each other’s comments
+up or down. The vote tallies are visible as a number
+next to each comment, and the position of the
+comments is chronological. (Stories on the site get an
+average of about ten comments and about three votes
+per comment.) It’s a follow-up to his experiment
+using people’s ratings of movies to measure how
+much individual people influence each other online
+(answer: a lot). This time, he wanted to know how
+much the crowd influences the individual, and
+whether it can be controlled from outside.
+For five months, every comment submitted by a
+user randomly received an “up” vote (positive); a
+“down” vote (negative); or as a control, no vote at all.
+The team then observed how users rated those
+comments. The users generated more than
+100,000 comments that were viewed more than
+10 million times and rated more than 300,000 times
+by other users.
+At least when it comes to comments on news
+sites, the crowd is more herdlike than wise.
+Comments that received fake positive votes from the
+researchers were 32% more likely to receive more
+positive votes compared with a control, the team
+reports. And those comments were no more likely
+than the control to be down-voted by the next viewer
+to see them. By the end of the study, positively
+manipulated comments got an overall boost of about
+25%. However, the same did not hold true for
+negative manipulation. The ratings of comments that
+got a fake down vote were usually negated by an up
+vote by the next user to see them.
+“Our experiment does not reveal the psychology
+behind people’s decisions,” Aral says, “but an
+intuitive explanation is that people are more
+skeptical of negative social influence. They’re more
+willing to go along with positive opinions from other
+people.”
+Duncan Watts, a network scientist at Microsoft
+Research in New York City, agrees with that
+conclusion. “[But] one question is whether the
+positive [herding] bias is specific to this site” or true
+in general, Watts says. He points out that the
+category of the news items in the experiment had a
+strong effect on how much people could be
+manipulated. “I would have thought that ‘business’ is
+pretty similar to ‘economics,’ yet they find a much
+stronger effect (almost 50% stronger) for the former
+than the latter. What explains this difference? If we’re
+going to apply these findings in the real world, we’ll
+need to know the answers.”
+Will companies be able to boost their products by
+manipulating online ratings on a massive scale?
+“That is easier said than done,” Watts says. If people
+detect—or learn—that comments on a website are
+being manipulated, the herd may spook and leave
+entirely.
+1 1 ........................................................................................................................................................................................................................................................................................................
+Line
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+Unauthorized copying or reuse of any part of this page is illegal.
+14
+CONTINUE
+Mean score
+fun
+2
+Category of news
+Artificially Up-Voted Comments versus Control Comments
+4
+1
+3
+economics general
+news
+business culture
+and
+society
+politics information
+technology
+artificially
+up-voted control
+minimum
+maximum
+Mean score: mean of scores for the comments in each category, with the score for each comment being determined by
+the number of positive votes from website users minus the number of negative votes
+Adapted from Lev Muchnik, Sinan Aral, and Sean J. Taylor, “Social Influence Bias: A Randomized Experiment.” ©2013 by American
+Association for the Advancement of Science.
+32
+Over the course of the passage, the main focus shifts
+from a discussion of an experiment and its results to
+A) an explanation of the practical applications of
+the results.
+B) a consideration of the questions prompted by the
+results.
+C) an analysis of the defects undermining the
+results.
+D) a conversation with a scientist who disputes the
+results.
+33
+The author of the passage suggests that crowds may
+be more effective at
+A) creating controversy than examining an issue
+in depth.
+B) reinforcing members’ ideas than challenging
+those ideas.
+C) arriving at accurate quantitative answers than
+producing valid qualitative judgments.
+D) ranking others’ opinions than developing
+genuinely original positions.
+1 1 .........................................................................................................................................
+Unauthorized copying or reuse of any part of this page is illegal.
+15
+CONTINUE
+34
+Which choice provides the best evidence for the
+answer to the previous question?
+A) Line 9 (“Sometimes... you”)
+B) Lines 11-14 (“Your... number”)
+C) Lines 17-20 (“According... value”)
+D) Lines 25-28 (“To test... opinions”)
+35
+Which choice best supports the view of the “skeptics”
+(line 20)?
+A) Lines 55-58 (“Comments... reports”)
+B) Lines 58-60 (“And... them”)
+C) Lines 63-65 (“The ratings... them”)
+D) Lines 76-79 (“He... manipulated”)
+36
+Which action would best address a question Watts
+raises about the study?
+A) Providing fewer fake positive comments
+B) Using multiple websites to collect ratings
+C) Requiring users to register on the website before
+voting
+D) Informing users that voting data are being
+analyzed
+37
+As used in line 85, “boost” most nearly means
+A) increase.
+B) accelerate.
+C) promote.
+D) protect.
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Unauthorized copying or reuse of any part of this page is illegal.
+16
+CONTINUE
+38
+As used in line 86, “scale” most nearly means
+A) level.
+B) wage.
+C) interval.
+D) scheme.
+39
+In the figure, which category of news has an
+artificially up-voted mean score of 2.5?
+A) Business
+B) Politics
+C) Fun
+D) General news
+40
+According to the figure, which category of news
+showed the smallest difference in mean score
+between artificially up-voted comments and control
+comments?
+A) Culture and society
+B) Information technology
+C) Fun
+D) General news
+41
+Data presented in the figure most directly support
+which idea from the passage?
+A) The mean score of artificially down-voted
+comments is similar to that of the control.
+B) The patterns observed in the experiment suggest
+that people are suspicious of negative social
+influence.
+C) The positive bias observed in users of the news
+site may not apply to human behavior in other
+contexts.
+D) The type of story being commented on has an
+impact on the degree to which people can be
+influenced.

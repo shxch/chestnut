@@ -1,0 +1,79 @@
+How To Spot A Liar
+
+However much we may abhor it, deception comes naturally to all living things. Birds do it by feigning injury to lead hungry predators away from nesting young. Spider crabs do it by disguise: adorning themselves with strips of kelp and other debris, they pretend to be something they are not--and so escape their enemies. Nature amply rewards successful deceivers by allowing them to survive long enough to mate and reproduce. So it may come as no surprise to learn that human beings--who, according to psychologist Gerald Jellison of the University of South California, are lied to about 200 times a day, roughly one untruth every five minutes--often deceive for exactly the same reasons: to save their own skins or to get something they can't get by other means.
+
+But knowing how to catch deceit can be just as important a survival skill as knowing how to tell a lie and get away with it. A person able to spot falsehood quickly is unlikely to be swindled by an unscrupulous business associate or hoodwinked by a devious spouse. Luckily, nature provides more than enough clues to trap dissemblers in their own tangled webs--if you know where to look. By closely observing facial expressions, body language and tone of voice, practically anyone can recognize the telltale signs of lying. Researchers are even programming computers--like those used on Lie Detector--to get at the truth by analyzing the same physical cues available to the naked eye and ear. "With the proper training, many people can learn to reliably detect lies," says Paul Ekman, professor of psychology at the University of California, San Francisco, who has spent the past 15 years studying the secret art of deception.
+
+In order to know what kind of lies work best, successful liars need to accurately assess other people's emotional states. Ekman's research shows that this same emotional intelligence is essential for good lie detectors, too. The emotional state to watch out for is stress, the conflict most liars feel between the truth and what they actually say and do.
+
+Even high-tech lie detectors don't detect lies as such; they merely detect the physical cues of emotions, which may or may not correspond to what the person being tested is saying. Polygraphs, for instance, measure respiration, heart rate and skin conductivity, which tend to increase when people are nervous--as they usually are when lying. Nervous people typically perspire, and the salts contained in perspiration conduct electricity. That's why a sudden leap in skin conductivity indicates nervousness--about getting caught, perhaps?--which might, in turn, suggest that someone is being economical with the truth. On the other hand, it might also mean that the lights in the television studio are too hot--which is one reason polygraph tests are inadmissible in court. "Good lie detectors don't rely on a single sign," Ekman says, "but interpret clusters of verbal and nonverbal clues that suggest someone might be lying."
+
+Those clues are written all over the face. Because the musculature of the face is directly connected to the areas of the brain that process emotion, the countenance can be a window to the soul. Neurological studies even suggest that genuine emotions travel different pathways through the brain than insincere ones. If a patient paralyzed by stroke on one side of the face, for example, is asked to smile deliberately, only the mobile side of the mouth is raised. But tell that same person a funny joke, and the patient breaks into a full and spontaneous smile. Very few people--most notably, actors and politicians--are able to consciously control all of their facial expressions. Lies can often be caught when the liar's true feelings briefly leak through the mask of deception. "We don't think before we feel," Ekman says. "Expressions tend to show up on the face before we're even conscious of experiencing an emotion."
+
+One of the most difficult facial expressions to fake--or conceal, if it is genuinely felt--is sadness. When someone is truly sad, the forehead wrinkles with grief and the inner corners of the eyebrows are pulled up. Fewer than 15% of the people Ekman tested were able to produce this eyebrow movement voluntarily. By contrast, the lowering of the eyebrows associated with an angry scowl can be replicated at will by almost everybody. "If someone claims they are sad and the inner corners of their eyebrows don't go up," Ekman says, "the sadness is probably false."
+
+The smile, on the other hand, is one of the easiest facial expressions to counterfeit. It takes just two muscles--the zygomaticus major muscles that extend from the cheekbones to the corners of the lips--to produce a grin. But there's a catch. A genuine smile affects not only the corners of the lips but also the orbicularis oculi, the muscle around the eye that produces the distinctive "crow's-feet" associated with people who laugh a lot. A counterfeit grin can be unmasked if the lip corners go up, the eyes crinkle but the inner corners of the eyebrows are not lowered, a movement controlled by the orbicularis oculi that is difficult to fake. The absence of lowered eyebrows is one reason why false smiles look so strained and stiff.
+
+Questions 1-5
+Do the following statements agree with the claims of the writer in Reading Passage?
+
+In boxes 1-5 on your answer sheet, write
+
+YES - if the statement agrees with the information
+NO - if the statement contradicts the information
+NOT GIVEN - if there is no information on this
+
+1  All living animals can lie.
+2  Some people tell lies for self-preservation.
+3  Scientists have used computers to analyze which part of the brain is responsible for telling lies.
+4  Lying as a survival skill is more important than detecting a lie.
+5  To be a good liar, one has to understand other people's emotions.
+
+Questions 6-9
+Choose the correct letter A, B, C or D.
+
+Write your answers in boxes 6-9.
+
+ 6. How does the lie detector work?
+
+A  It detects whether one's emotional state is stable.
+B  It detects one’s brain activity level.
+C  It detects body behavior during one's verbal response.
+D  It analyses one's verbal response word by word.
+
+7. Lie detectors can't be used as evidence in a court of law because
+
+A  Lights often cause lie detectors to malfunction.
+B  They are based on too many verbal and non-verbal clues.
+C  Polygraph tests are often inaccurate.
+D  There may be many causes of certain body behavior.
+
+8. Why does the author mention the paralyzed patients?
+
+A  To demonstrate how a paralyzed patient smiles
+B  To show the relation between true emotions and body behavior
+C  To examine how they were paralyzed
+D  To show the importance of happiness from recovery
+
+9. The author uses politicians to exemplify that they can
+
+A  Have emotions.
+B  Imitate actors.
+C  Detect other people's lives.
+D  Mask their true feelings.
+Questions 10-13
+Classify the following facial traits as referring to
+
+A sadness
+B anger
+C happiness
+
+Write the correct letter A, B or C in boxes 10-13.
+
+10  Inner corners of eyebrows raised
+
+11  The whole eyebrows lowered
+
+12  Lines formed around
+
+13  Lines form above eyebrows

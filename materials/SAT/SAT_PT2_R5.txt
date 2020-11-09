@@ -1,0 +1,229 @@
+Questions 43-52 are based on the following
+passage and supplementary material.
+This passage is adapted from Geoffrey Giller, “Long a
+Mystery, How 500-Meter-High Undersea Waves Form Is
+Revealed.” ©2014 by Scientific American.
+Some of the largest ocean waves in the world are
+nearly impossible to see. Unlike other large waves,
+these rollers, called internal waves, do not ride the
+ocean surface. Instead, they move underwater,
+undetectable without the use of satellite imagery or
+sophisticated monitoring equipment. Despite their
+hidden nature, internal waves are fundamental parts
+of ocean water dynamics, transferring heat to the
+ocean depths and bringing up cold water from below.
+And they can reach staggering heights—some as tall
+as skyscrapers.
+Because these waves are involved in ocean mixing
+and thus the transfer of heat, understanding them is
+crucial to global climate modeling, says Tom
+Peacock, a researcher at the Massachusetts Institute
+of Technology. Most models fail to take internal
+waves into account. “If we want to have more and
+more accurate climate models, we have to be able to
+capture processes such as this,” Peacock says.
+Peacock and his colleagues tried to do just that.
+Their study, published in November in Geophysical
+Research Letters, focused on internal waves generated
+in the Luzon Strait, which separates Taiwan and the
+Philippines. Internal waves in this region, thought to
+be some of the largest in the world, can reach about
+500 meters high. “That’s the same height as the
+Freedom Tower that’s just been built in New York,”
+Peacock says.
+Although scientists knew of this phenomenon in
+the South China Sea and beyond, they didn’t know
+exactly how internal waves formed. To find out,
+Peacock and a team of researchers from M.I.T. and
+Woods Hole Oceanographic Institution worked with
+France’s National Center for Scientific Research
+using a giant facility there called the Coriolis
+Platform. The rotating platform, about 15 meters
+(49.2 feet) in diameter, turns at variable speeds and
+can simulate Earth’s rotation. It also has walls, which
+means scientists can fill it with water and create
+accurate, large-scale simulations of various
+oceanographic scenarios.
+Peacock and his team built a carbon-fiber resin
+scale model of the Luzon Strait, including the islands
+and surrounding ocean floor topography. Then they
+filled the platform with water of varying salinity to
+replicate the different densities found at the strait,
+with denser, saltier water below and lighter, less
+briny water above. Small particles were added to the
+solution and illuminated with lights from below in
+order to track how the liquid moved. Finally, they
+re-created tides using two large plungers to see how
+the internal waves themselves formed.
+The Luzon Strait’s underwater topography, with a
+distinct double-ridge shape, turns out to be
+responsible for generating the underwater waves.
+As the tide rises and falls and water moves through
+the strait, colder, denser water is pushed up over the
+ridges into warmer, less dense layers above it.
+This action results in bumps of colder water trailed
+by warmer water that generate an internal wave.
+As these waves move toward land, they become
+steeper—much the same way waves at the beach
+become taller before they hit the shore—until they
+break on a continental shelf.
+The researchers were also able to devise a
+mathematical model that describes the movement
+and formation of these waves. Whereas the model is
+specific to the Luzon Strait, it can still help
+researchers understand how internal waves are
+generated in other places around the world.
+Eventually, this information will be incorporated into
+global climate models, making them more accurate.
+“It’s very clear, within the context of these [global
+climate] models, that internal waves play a role in
+driving ocean circulations,” Peacock says.
+1 1
+Line
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+Unauthorized copying or reuse of any part of this page is illegal.
+14
+CONTINUE
+...............................................................................................................................................................................................................................................................................................................
+43
+The first paragraph serves mainly to
+A) explain how a scientific device is used.
+B) note a common misconception about an event.
+C) describe a natural phenomenon and address its
+importance.
+D) present a recent study and summarize its
+findings.
+44
+As used in line 19, “capture” is closest in meaning to
+A) control.
+B) record.
+C) secure.
+D) absorb.
+45
+According to Peacock, the ability to monitor internal
+waves is significant primarily because
+A) it will allow scientists to verify the maximum
+height of such waves.
+B) it will allow researchers to shift their focus to
+improving the quality of satellite images.
+C) the study of wave patterns will enable regions to
+predict and prevent coastal damage.
+D) the study of such waves will inform the
+development of key scientific models.
+46
+Which choice provides the best evidence for the
+answer to the previous question?
+A) Lines 1-2 (“Some... see”)
+B) Lines 4-6 (“they... equipment”)
+C) Lines 17-19 (“If... this”)
+D) Lines 24-26 (“Internal... high”)
+1 1 ......................................................................................................................................................................
+Unauthorized copying or reuse of any part of this page is illegal. CONTINUE Depth Below
+Surface (meters)
+80
+160
+0
+120
+40
+Time (hours)
+* Bands of water of constant temperatures
+CHANGES IN DEPTH OF ISOTHERMS*
+IN AN INTERNAL WAVE OVER A 24-HOUR PERIOD
+0:00
+1:12
+2:24
+3:36
+4:48
+6:00
+7:12
+8:24
+9:36
+10:48
+12:00
+13:12
+14:24
+15:36
+16:48
+18:00
+19:12
+20:24
+21:36
+22:48
+24:00
+13°C 11°C 10°C 9°C
+Adapted from Justin Small et al., “Internal Solitons in the Ocean: Prediction from SAR.” ©1998 by Oceanography, Defence Evaluation and Research Agency.
+15
+47
+As used in line 65, “devise” most nearly means
+A) create.
+B) solve.
+C) imagine.
+D) begin.
+48
+Based on information in the passage, it can
+reasonably be inferred that all internal waves
+A) reach approximately the same height even
+though the locations and depths of continental
+shelves vary.
+B) may be caused by similar factors but are
+influenced by the distinct topographies of
+different regions.
+C) can be traced to inconsistencies in the tidal
+patterns of deep ocean water located near
+islands.
+D) are generated by the movement of dense water
+over a relatively flat section of the ocean floor.
+49
+Which choice provides the best evidence for the
+answer to the previous question?
+A) Lines 29-31 (“Although... formed”)
+B) Lines 56-58 (“As the... it”)
+C) Lines 61-64 (“As these... shelf”)
+D) Lines 67-70 (“Whereas... world”)
+50
+In the graph, which isotherm displays an increase in
+depth below the surface during the period 19:12 to
+20:24?
+A) 9°C
+B) 10°C
+C) 11°C
+D) 13°C
+51
+Which concept is supported by the passage and by
+the information in the graph?
+A) Internal waves cause water of varying salinity
+to mix.
+B) Internal waves push denser water above layers of
+less dense water.
+C) Internal waves push bands of cold water above
+bands of warmer water.
+D) Internal waves do not rise to break the ocean’s
+surface.
+52
+How does the graph support the author’s point that
+internal waves affect ocean water dynamics?
+A) It demonstrates that wave movement forces
+warmer water down to depths that typically are
+colder.
+B) It reveals the degree to which an internal wave
+affects the density of deep layers of cold water.
+C) It illustrates the change in surface temperature
+that takes place during an isolated series of deep
+waves.
+D) It shows that multiple waves rising near the
+surface of the ocean disrupt the flow of normal
+tides.

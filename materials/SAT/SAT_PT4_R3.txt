@@ -1,0 +1,189 @@
+Questions 22-31 are based on the following
+passage.
+This passage is adapted from Emily Anthes, Frankenstein's
+Cat. ©2013 by Emily Anthes.
+When scientists first learned how to edit the
+genomes of animals, they began to imagine all the
+ways they could use this new power. Creating
+brightly colored novelty pets was not a high priority.
+Instead, most researchers envisioned far more
+consequential applications, hoping to create
+genetically engineered animals that saved human
+lives. One enterprise is now delivering on this dream.
+Welcome to the world of “pharming,” in which
+simple genetic tweaks turn animals into living
+pharmaceutical factories.
+Many of the proteins that our cells crank out
+naturally make for good medicine. Our bodies’ own
+enzymes, hormones, clotting factors, and antibodies
+are commonly used to treat cancer, diabetes,
+autoimmune diseases, and more. The trouble is that
+it’s difficult and expensive to make these compounds
+on an industrial scale, and as a result, patients can
+face shortages of the medicines they need. Dairy
+animals, on the other hand, are expert protein
+producers, their udders swollen with milk. So the
+creation of the first transgenic animals—first mice,
+then other species—in the 1980s gave scientists an
+idea: What if they put the gene for a human antibody
+or enzyme into a cow, goat, or sheep? If they put the
+gene in just the right place, under the control of the
+right molecular switch, maybe they could engineer
+animals that produced healing human proteins in
+their milk. Then doctors could collect medicine by
+the bucketful.
+Throughout the 1980s and ’90s, studies provided
+proof of principle, as scientists created transgenic
+mice, sheep, goats, pigs, cattle, and rabbits that did in
+fact make therapeutic compounds in their milk.
+At first, this work was merely gee-whiz, scientific
+geekery, lab-bound thought experiments come true.
+That all changed with ATryn, a drug produced by the
+Massachusetts firm GTC Biotherapeutics. ATryn is
+antithrombin, an anticoagulant that can be used to
+prevent life-threatening blood clots. The compound,
+made by our liver cells, plays a key role in keeping
+our bodies clot-free. It acts as a molecular bouncer,
+sidling up to clot-forming compounds and escorting
+them out of the bloodstream. But as many as 1 in
+2,000 Americans are born with a genetic mutation
+that prevents them from making antithrombin.
+These patients are prone to clots, especially in their
+legs and lungs, and they are at elevated risk of
+suffering from fatal complications during surgery
+and childbirth. Supplemental antithrombin can
+reduce this risk, and GTC decided to try to
+manufacture the compound using genetically
+engineered goats.
+To create its special herd of goats, GTC used
+microinjection, the same technique that produced
+GloFish and AquAdvantage salmon. The company’s
+scientists took the gene for human antithrombin and
+injected it directly into fertilized goat eggs. Then they
+implanted the eggs in the wombs of female goats.
+When the kids were born, some of them proved to be
+transgenic, the human gene nestled safely in their
+cells. The researchers paired the antithrombin gene
+with a promoter (which is a sequence of DNA that
+controls gene activity) that is normally active in the
+goat’s mammary glands during milk production.
+When the transgenic females lactated, the promoter
+turned the transgene on and the goats’ udders filled
+with milk containing antithrombin. All that was left
+to do was to collect the milk, and extract and purify
+the protein. Et voilà—human medicine! And, for
+GTC, liquid gold. ATryn hit the market in 2006,
+becoming the world’s first transgenic animal drug.
+Over the course of a year, the “milking parlors” on
+GTC’s 300-acre farm in Massachusetts can collect
+more than a kilogram of medicine from a single
+animal.
+22
+The primary purpose of the passage is to
+A) present the background of a medical
+breakthrough.
+B) evaluate the research that led to a scientific
+discovery.
+C) summarize the findings of a long-term research
+project.
+D) explain the development of a branch of scientific
+study.
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Line
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+Unauthorized copying or reuse of any part of this page is illegal.
+8
+CONTINUE
+23
+The author’s attitude toward pharming is best
+described as one of
+A) apprehension.
+B) ambivalence.
+C) appreciation.
+D) astonishment.
+24
+As used in line 20, “expert” most nearly means
+A) knowledgeable.
+B) professional.
+C) capable.
+D) trained.
+25
+What does the author suggest about the transgenic
+studies done in the 1980s and 1990s?
+A) They were limited by the expensive nature of
+animal research.
+B) They were not expected to yield products ready
+for human use.
+C) They were completed when an anticoagulant
+compound was identified.
+D) They focused only on the molecular properties of
+cows, goats, and sheep.
+26
+Which choice provides the best evidence for the
+answer to the previous question?
+A) Lines 16-19 (“The trouble... need”)
+B) Lines 25-29 (“If they... milk”)
+C) Lines 35-36 (“At first... true”)
+D) Lines 37-40 (“That all... clots”)
+27
+According to the passage, which of the following is
+true of antithrombin?
+A) It reduces compounds that lead to blood clots.
+B) It stems from a genetic mutation that is rare in
+humans.
+C) It is a sequence of DNA known as a promoter.
+D) It occurs naturally in goats’ mammary glands.
+28
+Which choice provides the best evidence for the
+answer to the previous question?
+A) Lines 12-16 (“Many... more”)
+B) Lines 42-44 (“It acts... bloodstream”)
+C) Lines 44-46 (“But as... antithrombin”)
+D) Lines 62-65 (“The researchers... production”)
+29
+Which of the following does the author suggest about
+the “female goats” mentioned in line 59?
+A) They secreted antithrombin in their milk after
+giving birth.
+B) Some of their kids were not born with the
+antithrombin gene.
+C) They were the first animals to receive
+microinjections.
+D) Their cells already contained genes usually found
+in humans.
+30
+The most likely purpose of the parenthetical
+information in lines 63-64 is to
+A) illustrate an abstract concept.
+B) describe a new hypothesis.
+C) clarify a claim.
+D) define a term.
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Unauthorized copying or reuse of any part of this page is illegal.
+9
+CONTINUE
+31
+The phrase “liquid gold” (line 71) most directly
+suggests that
+A) GTC has invested a great deal of money in the
+microinjection technique.
+B) GTC’s milking parlors have significantly
+increased milk production.
+C) transgenic goats will soon be a valuable asset for
+dairy farmers.
+D) ATryn has proved to be a financially beneficial
+product for GTC

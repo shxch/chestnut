@@ -1,0 +1,227 @@
+Questions 22-31 are based on the following
+passage and supplementary material.
+This passage is adapted from J. D. Watson and F. H. C. Crick,
+“Genetical Implications of the Structure of Deoxyribonucleic
+Acid.” ©1953 by Nature Publishing Group. Watson and Crick
+deduced the structure of DNA using evidence from Rosalind
+Franklin and R. G. Gosling’s X-ray crystallography diagrams
+of DNA and from Erwin Chargaff’s data on the base
+composition of DNA.
+The chemical formula of deoxyribonucleic acid
+(DNA) is now well established. The molecule is a
+very long chain, the backbone of which consists of a
+regular alternation of sugar and phosphate groups.
+To each sugar is attached a nitrogenous base, which
+can be of four different types. Two of the possible
+bases—adenine and guanine—are purines, and the
+other two—thymine and cytosine—are pyrimidines.
+So far as is known, the sequence of bases along the
+chain is irregular. The monomer unit, consisting of
+phosphate, sugar and base, is known as a nucleotide.
+The first feature of our structure which is of
+biological interest is that it consists not of one chain,
+but of two. These two chains are both coiled around
+a common fiber axis. It has often been assumed that
+since there was only one chain in the chemical
+formula there would only be one in the structural
+unit. However, the density, taken with the X-ray
+evidence, suggests very strongly that there are two.
+The other biologically important feature is the
+manner in which the two chains are held together.
+This is done by hydrogen bonds between the bases.
+The bases are joined together in pairs, a single base
+from one chain being hydrogen-bonded to a single
+base from the other. The important point is that only
+certain pairs of bases will fit into the structure.
+One member of a pair must be a purine and the other
+a pyrimidine in order to bridge between the two
+chains. If a pair consisted of two purines, for
+example, there would not be room for it.
+We believe that the bases will be present almost
+entirely in their most probable forms. If this is true,
+the conditions for forming hydrogen bonds are more
+restrictive, and the only pairs of bases possible are:
+adenine with thymine, and guanine with cytosine.
+Adenine, for example, can occur on either chain; but
+when it does, its partner on the other chain must
+always be thymine.
+The phosphate-sugar backbone of our model is
+completely regular, but any sequence of the pairs of
+bases can fit into the structure. It follows that in a
+long molecule many different permutations are
+possible, and it therefore seems likely that the precise
+sequence of bases is the code which carries the
+genetical information. If the actual order of the bases
+on one of the pair of chains were given, one could
+write down the exact order of the bases on the other
+one, because of the specific pairing. Thus one chain
+is, as it were, the complement of the other, and it is
+this feature which suggests how the deoxyribonucleic
+acid molecule might duplicate itself.
+The table shows, for various organisms, the percentage of
+each of the four types of nitrogenous bases in that
+organism’s DNA.
+Base Composition of DNA
+Organism
+Percentage of base
+in organism’s DNA
+adenine
+(%)
+guanine
+(%)
+cytosine
+(%)
+thymine
+(%)
+Maize
+Octopus
+Chicken
+Rat
+Human
+Grasshopper
+Sea urchin
+Wheat
+Yeast
+E. coli
+26.8 22.8 23.2 27.2
+33.2 17.6 17.6 31.6
+28.0 22.0 21.6 28.4
+28.6 21.4 20.5 28.4
+29.3 20.7 20.0 30.0
+29.3 20.5 20.7 29.3
+32.8 17.7 17.3 32.1
+27.3 22.7 22.8 27.1
+31.3 18.7 17.1 32.9
+24.7 26.0 25.7 23.6
+Adapted from Manju Bansal, “DNA Structure: Revisiting the
+Watson-Crick Double Helix.” ©2003 by Current Science Association,
+Bangalore.
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Line
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Unauthorized copying or reuse of any part of this page is illegal. CONTINUE
+8
+22
+The authors use the word “backbone” in lines 3
+and 39 to indicate that
+A) only very long chains of DNA can be taken from
+an organism with a spinal column.
+B) the main structure of a chain in a DNA molecule
+is composed of repeating units.
+C) a chain in a DNA molecule consists entirely of
+phosphate groups or of sugars.
+D) nitrogenous bases form the main structural unit
+of DNA.
+23
+A student claims that nitrogenous bases pair
+randomly with one another. Which of the following
+statements in the passage contradicts the student’s
+claim?
+A) Lines 5-6 (“To each... types”)
+B) Lines 9-10 (“So far... irregular”)
+C) Lines 23-25 (“The bases... other”)
+D) Lines 27-29 (“One member... chains”)
+24
+In the second paragraph (lines 12-19), what do the
+authors claim to be a feature of biological interest?
+A) The chemical formula of DNA
+B) The common fiber axis
+C) The X-ray evidence
+D) DNA consisting of two chains
+25
+The authors’ main purpose of including the
+information about X-ray evidence and density is to
+A) establish that DNA is the molecule that carries
+the genetic information.
+B) present an alternate hypothesis about the
+composition of a nucleotide.
+C) provide support for the authors’ claim about the
+number of chains in a molecule of DNA.
+D) confirm the relationship between the density of
+DNA and the known chemical formula of DNA.
+26
+Based on the passage, the authors’ statement “If a
+pair consisted of two purines, for example, there
+would not be room for it” (lines 29-30) implies that a
+pair
+A) of purines would be larger than the space
+between a sugar and a phosphate group.
+B) of purines would be larger than a pair consisting
+of a purine and a pyrimidine.
+C) of pyrimidines would be larger than a pair of
+purines.
+D) consisting of a purine and a pyrimidine would be
+larger than a pair of pyrimidines.
+27
+The authors’ use of the words “exact,” “specific,” and
+“complement” in lines 47-49 in the final paragraph
+functions mainly to
+A) confirm that the nucleotide sequences are known
+for most molecules of DNA.
+B) counter the claim that the sequences of bases
+along a chain can occur in any order.
+C) support the claim that the phosphate-sugar
+backbone of the authors’ model is completely
+regular.
+D) emphasize how one chain of DNA may serve as a
+template to be copied during DNA replication.
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Unauthorized copying or reuse of any part of this page is illegal. CONTINUE
+9
+28
+Based on the table and passage, which choice gives
+the correct percentages of the purines in yeast DNA?
+A) 17.1% and 18.7%
+B) 17.1% and 32.9%
+C) 18.7% and 31.3%
+D) 31.3% and 32.9%
+29
+Do the data in the table support the authors’
+proposed pairing of bases in DNA?
+A) Yes, because for each given organism, the
+percentage of adenine is closest to the percentage
+of thymine, and the percentage of guanine is
+closest to the percentage of cytosine.
+B) Yes, because for each given organism, the
+percentage of adenine is closest to the percentage
+of guanine, and the percentage of cytosine is
+closest to the percentage of thymine.
+C) No, because for each given organism, the
+percentage of adenine is closest to the percentage
+of thymine, and the percentage of guanine is
+closest to the percentage of cytosine.
+D) No, because for each given organism, the
+percentage of adenine is closest to the percentage
+of guanine, and the percentage of cytosine is
+closest to the percentage of thymine.
+30
+According to the table, which of the following pairs
+of base percentages in sea urchin DNA provides
+evidence in support of the answer to the previous
+question?
+A) 17.3% and 17.7%
+B) 17.3% and 32.1%
+C) 17.3% and 32.8%
+D) 17.7% and 32.8%
+31
+Based on the table, is the percentage of adenine in
+each organism’s DNA the same or does it vary, and
+which statement made by the authors is most
+consistent with that data?
+A) The same; “Two of... pyrimidines” (lines 6-8)
+B) The same; “The important... structure”
+(lines 25-26)
+C) It varies; “Adenine... thymine” (lines 36-38)
+D) It varies; “It follows... information”
+(lines 41-45)
+1 1 ...............................................................................................................................................................................................................................................................................................................
+Unauthorized copying or reuse of any part of this page is illegal. CONTINUE

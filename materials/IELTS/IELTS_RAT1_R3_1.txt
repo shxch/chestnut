@@ -1,0 +1,76 @@
+READING PASSAGE 1
+You should spend about 20 minutes on Questions 1-13, which are based on Reading Passage 1 below.
+
+
+Learning by Examples
+A Learning Theory is rooted in the work of Ivan Pavlov, the famous scientist who discovered and documented the principles governing how animals (humans included) learn in the 1900s. Two basic kinds of learning or conditioning occur, one of which is famously known as the classical conditioning. Classical conditioning happens when an animal learns to associate a neutral stimulus (signal) with a stimulus that has intrinsic meaning based on how closely in time the two stimuli are presented. The classic example of classical conditioning is a dog's ability to associate the sound of a bell (something that originally has no meaning to the dog) with the presentation of food (something that has a lot of meaning to the dog) a few moments later. Dogs are able to learn the association between bell and food, and will salivate immediately after hearing the bell once this connection has been made. Years of learning research have led to the creation of a highly precise learning theory that can be used to understand and predict how and under what circumstances most any animal will learn, including human beings, and eventually help people figure out how to change their behaviours.
+
+B Role models are a popular notion for guiding child development, but in recent years very interesting research has been done on learning by examples in other animals. If the subject of animal learning is taught very much in terms of classical or operant conditioning, it places too much emphasis on how we allow animals to learn and not enough on how they are equipped to learn. To teach a course of mine, I have been dipping profitably into a very interesting and accessible compilation of papers on social learning in mammals, including chimps and human children, edited by Heyes and Galef (1996).
+
+C The research reported in one paper started with a school field trip to Israel to a pine forest where many pine cones were discovered, stripped to the central core. So the investigation started with no weighty theoretical intent, but was directed at finding out what was eating the nutritious pine seeds and how they managed to get them out of the cones. The culprit proved to be the versatile and athletic black rat,(Rattus rattus), and the technique was to bite each cone scale off at its base, in sequence from base to tip following the spiral growth pattern of the cone.
+
+D Urban black rats were found to lack the skill and were unable to learn it even if housed with experienced cone strippers. However, infants of urban mothers cross-fostered by stripper mothers acquired the skill, whereas infants of stripper mothers fostered by an urban mother could not. Clearly the skill had to be learned from the mother. Further elegant experiments showed that naive adults could develop the skill if they were provided with cones from which the first complete spiral of scales had been removed; rather like our new photocopier which you can work out how to use once someone has shown you how to switch it on. In the case of rats, the youngsters take cones away from the mother when she is still feeding on them, allowing them to acquire the complete stripping skill.
+
+E A good example of adaptive bearing we might conclude, but let’s see the economies. This was determined by measuring oxygen uptake of a rat stripping a cone in a metabolic chamber to calculate energetic cost and comparing it with the benefit of the pine seeds measured by calorimeter. The cost proved to be less than 10% of the energetic value of the cone. An acceptable profit margin.
+
+F A paper in 1996, Animal Behaviour by Bednekoff and Baida, provides a different view of the adaptiveness of social learning. It concerns the seed caching behaviour of Clark's Nutcracker (Nucifraga columbiana) and the Mexican Jay (Aphelocoma ultramarina). The former is a specialist, caching 30,000 or so seeds in scattered locations that it will recover over the months of winter; the Mexican Jay will also cache food but is much less dependent upon this than the Nutcracker. The two species also differ in their social structure: the Nutcracker being rather solitary while the Jay forages in social groups.
+
+G The experiment is to discover not just whether a bird can remember where it hid a seed but also if it can remember where it saw another bird hide a seed. The design is slightly comical with a cacher bird wandering about a room with lots of holes in the floor hiding food in some of the holes, while watched by an observer bird perched in a cage. Two days later, cachers and observers are tested for their discovery rate against an estimated random performance. In the role of cacher, not only the Nutcracker but also the less specialised Jay performed above chance; more surprisingly, however, jay observers were as successful as jay cachers whereas nutcracker observers did no better than chance. It seems that, whereas the Nutcracker is highly adapted at remembering where it hid its own seeds, the social living Mexican Jay is more adept at remembering, and so exploiting, the caches of others.
+
+SECTION 1: QUESTIONS 1-13
+Show Notepad
+Questions 1-4
+Reading Passage 1 has seven paragraphs A-G.
+
+Which paragraph contains the following information?
+
+Write the correct letter A-G in boxes 1-4 on your answer sheet.
+
+1       A comparison between rats’ learning and human learning
+
+2       A reference to the earliest study in animal learning
+
+3       The discovery of who stripped the pine cone
+
+4       A description of a cost-effectiveness experiment
+
+Show Notepad
+Questions 5-8
+Do the following statements agree with the information given in Reading Passage 1?
+
+In boxes 5-8 on your answer sheet, write
+
+TRUE	if the statement agrees with the information
+FALSE	if the statement contradicts the information
+NOT GIVEN	If there is no information on this
+5       The field trip to Israel was to investigate how black rats learn to strip pine cones.
+
+6       The pine cones were stripped from bottom to top by black rats.
+
+7       It can be learned from other relevant experiences to use a photocopier.
+
+8       Stripping the pine cones is an instinct of the black rats.
+
+Show Notepad
+Questions 9-13
+Complete the summary below using words from the box.
+
+Write your answers in boxes 9-13 on your answer sheet.  
+
+While the Nutcracker is more able to cache seeds, the Jay relies 9 
+less
+ on caching food and is thus less specialised in this ability, but more 10 
+social
+. To study their behaviour of caching and finding their caches, an experiment was designed and carried out to test these two birds for their ability to remember where they hid the seeds.
+
+In the experiment, the cacher bird hid seeds in the ground while the other 11 
+watched
+. As a result, the Nutcracker and the Mexican Jay showed different performance in the role of 12 
+observer
+ at finding the seeds - the observing 13 
+nutcracker
+ didn’t do as well as its counterpart.
+
+RAT 1 reading 3 Q9-13.png
+
+ 

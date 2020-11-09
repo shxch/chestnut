@@ -1,0 +1,63 @@
+Explaining Dinosaur Extinction
+Dinosaurs rapidly became extinct about 65 million years ago as part of a mass extinction known as the K–T event, because it is associated with a geological signature known as the K–T boundary, usually a thin band of sedimentation found in various parts of the world (K is the traditional abbreviation for the Cretaceous, derived from the German name Kreidezeit). Many explanations have been proposed for why dinosaurs became extinct. For example, some have blamed dinosaur extinction on the development of flowering plants, which were supposedly more difficult to digest and could have caused constipation or indigestion-except that flowering plants first evolved in the Early Cretaceous, about 60 million years before the dinosaurs died out. In fact, several scientists have suggested that the duckbill dinosaurs and horned dinosaurs, with their complex battery of grinding teeth, evolved to exploit this new resource of rapidly growing flowering plants. Others have blamed extinction on competition from the mammals, which allegedly ate all the dinosaur eggs-except that mammals and dinosaurs appeared at the same time in the Late Triassic, about 190 million years ago, and there is no reason to believe that mammals suddenly acquired a taste for dinosaur eggs after 120 million years of coexistence. Some explanations (such as the one stating that dinosaurs all died of diseases) fail because there is no way to scientifically test them, and they cannot move beyond the realm of speculation and guesswork.
+This focus on explaining dinosaur extinction misses an important point: the extinction at the end of the Cretaceous was a global event that killed off organisms up and down the food chain. It wiped out many kinds of plankton in the ocean and many marine organisms that lived on the plankton at the base of the food chain. These included a variety of clams and snails, and especially the ammonites, a group of shelled squidlike creatures that dominated the Mesozoic seas and had survived many previous mass extinctions. The K–T event marked the end of the marine reptiles, such as the mosasaurs and the plesiosaurs, which were the largest creatures that had ever lived in the seas and which ruled the seas long before whales evolved. On land, there was also a crisis among the land plants, in addition to the disappearance of dinosaurs. So any event that can explain the destruction of the base of the food chain (plankton in the ocean, plants on land) can better explain what happened to organisms at the top of the food chain, such as the dinosaurs. By contrast, any explanation that focuses strictly on the dinosaurs completely misses the point. The Cretaceous extinctions were a global phenomenon, and dinosaurs were just a part of a bigger picture.
+According to one theory, the Age of Dinosaurs ended suddenly 65 million years ago when a giant rock from space plummeted to Earth. Estimated to be ten to fifteen kilometers in diameter, this bolide (either a comet or an asteroid) was traveling at cosmic speeds of 20–70 kilometers per second, or 45,000–156,000 miles per hour. Such a huge mass traveling at such tremendous speeds carries an enormous amount of energy. When the bolide struck, this energy was released and generated a huge shock wave that leveled everything for thousands of kilometers around the impact and caused most of the landscape to burst into flames. The bolide struck an area of the Yucatán Peninsula of Mexico known as Chicxulub, excavating a crater 15–20 kilometers deep and at least 170 kilometers in diameter. The impact displaced huge volumes of seawater, causing much flood damage in the Caribbean. Meanwhile, the bolide itself excavated 100 cubic kilometers of rock and debris from the site, which rose to an altitude of 100 kilometers. Most of it fell back immediately, but some of it remained as dust in the atmosphere for months. This material, along with the smoke from the fires, shrouded Earth, creating a form of nuclear winter. According to computerized climate models, global temperatures fell to near the freezing point, photosynthesis halted, and most plants on land and in the sea died. With the bottom of the food chain destroyed, dinosaurs could not survive.
+
+In paragraph 1, why does the author include a discussion of when flowering plants evolved?
+To help explain why some scientists believe that the development of flowering plants led to dinosaur extinction
+To cast doubt on the theory that the development of flowering plants caused dinosaurs to become extinct
+To suggest that dinosaurs were able to survive for as long as they did because of the availability of flowering plants
+To emphasize that duckbill dinosaurs and horned dinosaurs were the first dinosaurs to become extinct
+
+According to paragraph 1, the extinction of the dinosaurs is unlikely to have been the result of competition from mammals because
+mammals would not have been capable of eating dinosaur eggs
+mammals did not appear in any significant numbers until after the Late Triassic
+mammals and dinosaurs did not, in fact, compete for any of the same resources
+mammals and dinosaurs lived together for roughly 120 million years before the extinction
+
+According to paragraph 2, what is problematic about some scientists' focus on dinosaur extinction?
+Dinosaurs became extinct so long ago that no theory about their disappearance can be proven scientifically.
+Dinosaurs were not the only organisms that went extinct at the end of the Cretaceous period.
+More marine organisms went extinct during the Cretaceous than did dinosaur species.
+It is more important to understand how plankton and other marine organisms came to thrive during the Cretaceous period.
+
+What makes the extinction of "the ammonites" especially significant?
+They were among the largest creatures that ever lived.
+They existed at the lowest level of the food chain.
+They had been able to survive in the Mesozoic seas.
+They had survived many previous mass extinctions.
+
+The word "strictly" in the passage is closest in meaning to
+exclusively
+mainly
+initially
+wrongly
+
+How does paragraph 3 relate to paragraph 2?
+Paragraph 3 provides an alternative explanation to the one provided in paragraph 2.
+Paragraph 3 provides an explanation that satisfies the conditions set forth in paragraph 2.
+Paragraph 3 provides the facts to support the theory presented in paragraph 2.
+Paragraph 3 presents a theory that calls into question the position described in paragraph 2.
+
+Paragraph 3 answers all of the following questions EXCEPT:
+Why did the bolide fall to Earth?
+How fast was the bolide traveling?
+How was the bolide capable of generating a shock wave?
+How did the bolide cause flood damage to the Caribbean?
+
+Paragraph 3 strongly suggests that if the bolide impact theory is correct, the majority of the extinctions associated with the K–T event resulted from
+sunlight being blocked for months by dust and smoke in Earth's atmosphere
+widespread flooding that followed the displacement of huge volumes of seawater
+the leveling of the landscape by the shock wave that was generated when the bolide struck Earth
+the rise in global temperatures caused by the fires that burned much of the landscape
+
+Some explanations seem plausible until the facts are considered.
+
+Over the years, scientists have proposed a number of theories as to why dinosaurs suddenly became extinct about 65 million years ago.
+Answer Choices
+A.Many explanations for dinosaur extinction have been proposed, but most of them are either called into question by known facts or are merely unsupported hypotheses.
+B.Although mammals and dinosaurs appeared at about the same time in the Late Triassic, the K–T event, which marked the end of the dinosaurs, apparently had relatively little impact on mammals.
+C.Focusing on dinosaurs misses the point that the extinction, at about the same time, of the shelled squidlike creatures that dominated the Mesozoic seas was far more scientifically significant.
+D.Any satisfactory explanation of the mass extinction of dinosaurs must take into account the fact that the disappearance of the dinosaurs was part of a global mass extinction.
+E.Computerized climate models of global temperature fluctuations support the theory that a huge rock from space hit the Yucatan Peninsula in Mexico about 65 million years ago.
+F.A huge bolide striking Earth would have created conditions in which most plants would have died, thus explaining the mass extinction of organisms—including dinosaurs—further up the food chain.

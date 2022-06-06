@@ -12,9 +12,9 @@ from GUI.WindowSelectPassage_GUI import Ui_winSelectPassage
 from GUI.WindowSelectStudent_GUI import Ui_winSelectStudent
 from src.PrintNewWordsFromTexts import get_new_words
 
-projectAbsPath = 'C:/Users/shenx/PycharmProjects/TPOWordFrequency/'
-passagesFolderPath = projectAbsPath + 'materials/'
-studentsFolderPath = projectAbsPath + 'students/'
+projectPath = Path(__file__).parent.parent
+passagesFolderPath = projectPath.joinpath('materials/')
+studentsFolderPath = projectPath.joinpath('students/')
 
 
 class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
@@ -27,7 +27,7 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         self.fileModel = QtWidgets.QFileSystemModel()
         self.fileModel.setRootPath('')
         self.tvwStudents.setModel(self.fileModel)
-        self.tvwStudents.setRootIndex(self.fileModel.index(studentsFolderPath))
+        self.tvwStudents.setRootIndex(self.fileModel.index(str(studentsFolderPath)))
         self.tvwStudents.hideColumn(1)
         self.tvwStudents.hideColumn(2)
         self.tvwStudents.hideColumn(3)
@@ -108,7 +108,7 @@ class WindowSelectPassage(QtWidgets.QMainWindow, Ui_winSelectPassage):
 
     def addPassagesToList(self):
         # noinspection PyArgumentList
-        passagesToBeAdded, _ = QFileDialog.getOpenFileNames(None, 'Add Passage', passagesFolderPath)
+        passagesToBeAdded, _ = QFileDialog.getOpenFileNames(None, 'Add Passage', str(passagesFolderPath))
         if passagesToBeAdded:
             self.addedPassagesFilePaths.update(passagesToBeAdded)
             self.updatePassagesList()
@@ -183,7 +183,7 @@ class MenuBar(QtWidgets.QMenuBar, Ui_mnb):
     @staticmethod
     def openPassageFile():
         # noinspection PyArgumentList
-        fileToBeOpened, _ = QFileDialog.getOpenFileName(None, 'Open File', passagesFolderPath)
+        fileToBeOpened, _ = QFileDialog.getOpenFileName(None, 'Open File', str(passagesFolderPath))
         if fileToBeOpened:
             os.system("notepad " + fileToBeOpened)
 

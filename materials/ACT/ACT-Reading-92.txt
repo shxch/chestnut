@@ -1,0 +1,166 @@
+SOCIAL SCIENCE: This passage is adapted from the article
+"Model Behaviour" by The Economist (©2009 by The Econo-
+mist Newspaper Limited).
+
+The warmongering ores depicted in the Lord of the
+Rings trilogy are evil, unpleasant creatures that leave
+death and destruction in their wake. But if you find
+yourself in a burning building a few years from now,
+5they might just save your life. That is because the tech-
+nology used to make hordes of these menacing,
+computer-generated monsters move convincingly on
+screen turns out to be just what is needed to predict
+how crowds of humans move around inside buildings.
+
+10The simulation of the behaviour of crowds of
+people and swarms of animals (not just mythological
+ones) is being applied to many unusual situations.
+
+When the first film in the Lord of the Rings trilogy
+was released in 2001, much was made of its heavy
+15reliance on computer-generated imagery. But what was
+perhaps most impressive were the epic battle scenes,
+which broke new ground in special effects by showing
+huge numbers of characters with an unprecedented
+degree of detail and realism. For this the trilogy's direc-
+20tor, Peter Jackson, largely has Stephen Regelous to
+thank. Regelous is the founder of Massive Software,
+based in Auckland, New Zealand. His firm's software
+made it possible to generate as many as half a million
+virtual actors in a single shot, each behaving in an inde-
+25pendent and plausible manner
+
+That is because every character was, in effect,
+given a brain, says Diane Holland, Massive's chief
+executive. Each one was modeled as a software "agent"
+with its own desires, needs and goals, and the ability to
+30perceive the environment and respond to the immediate
+surroundings in a believable way. Any given orc, for
+example, could work out which other fighters on the
+battlefield were in its line of sight, and hence whether it
+should flee or attack. This produced far more realistic
+35results than orchestrating the motions of the digital
+extras in a scripted, choreographed way.
+
+Taking a similar approach is Dr. Demetri
+Terzopoulos, a computer scientist at the University of
+California in Los Angeles. He is using agents to simu-
+40late the behaviour of commuters passing through Penn-
+sylvania Station in New York. His agents have memory,
+but they also have a sense of time and the ability to
+plan ahead. An agent entering the station will typically
+seek out the ticket office, stand in line to buy a ticket,
+45and then perhaps kill some time watching a street per-
+former if he has a few minutes before his train arrives,
+says Terzopoulos. If he is running late, by contrast, he
+may try to push his way to the front of the ticket line
+before sprinting for the platform.
+
+50Terzopoulos's research has shown that agents can
+simulate complex behaviours with great realism. Work-
+ing with Qinxin Yu, a graduate student, Terzopoulos
+has modeled how people behave in public when some-
+one collapses. People crowd around to help, and some
+55agents will even remember if they recently saw a police
+officer nearby, and run to get help, he says. Such real-
+ism is useful in the development of automated closed-
+circuit television security systems. Using real cameras
+for such research would raise privacy concerns, so he is
+60making agent simulations available instead to
+researchers who are training cameras to detect unusual
+behaviour. Another intriguing application is to help
+archaeologists study ancient ruins. Using a model of the
+Great Temple of Petra in Jordan, Terzopoulos has eval-
+65uated how it would have been used by the people who
+built it. He has concluded that the temple's capacity had
+previously been greatly overestimated.
+
+Agents need not even represent humans. Massive
+has been working with BMT Asia Pacific, a marine
+70consultancy, to model the behaviour of the thousands of
+ships operating in Hong Kong harbour. This involves
+simulating the behaviour of the ships themselves, each
+of which may be under the control of several people,
+says Richard Colwill of BMT. And rather than assum-
+75ing that everyone will adhere to the maritime traffic
+code, which determines who has right of way, it can
+incorporate acts of bravado and incompetence. "We get
+about 150 collisions. each year in Hong Kong," says
+Colwill. His firm plans to use the software to determine
+80which traffic-management strategies will be least dis-
+ruptive during the construction of an immersed road
+tunnel that will need to be lowered into the harbour.
+
+As agent software becomes better able to capture
+complex real-world behaviour, other uses for it are sure
+85to emerge. Indeed, this could soon become a crowded
+field.
+1. The main idea of the passage is that:
+
+A. using computer-generated simulations in movies has both advantages and disadvantages.
+B. the Lord of the Rings trilogy made cinematic his-tory with its computer-generated simulations.
+C. computer-generated simulations can be applied to predict behavior in a number of situations.
+D. Terzopoulos has expanded the field of computer-generated simulations beyond its uses in film.
+
+2. In the passage, the author's attitude toward computer--generated simulations can best be described as:
+
+F. fearful of their negative consequences.
+G. optimistic about their potential uses.
+H. boastful about their success.
+J. skeptical of their accuracy
+
+3. Which of the following statements best describes the organization of the passage?
+
+A. A problem with computer-generated simulations is identified, and several solutions are proposed.
+B. An example of computer-generated simulation is followed by a generalization and more examples.
+C. Summaries of the work of various computer researchers are presented in chronological order.
+D. A claim about the efficacy of computer-generated simulations is followed by attempts to refute it.
+
+4. Which of the following questions is directly answered in the passage?
+
+F. What behaviors can't be modeled by computer--generated simulations?
+G. What is the intended use for the software being developed by Massive Software and BMT Asia Pacific?
+H. How do researchers give a brain to a computerized character?
+J. How do programmers decide which characteristics and actions to include in their software?
+
+5. The main purpose of the seventh paragraph (lines68-82) is to:
+
+A. illustrate the dangers of predicting crowd behavior through computer simulation.
+B. summarize Hong Kong's lengthy history of using computer simulations of crowd behavior to direct harbor traffic.
+C. contrast BMT Asia Pacific's computer simulation of crowd behavior with actual crowd behavior.
+D. extend the discussion of using computer simula-tions to predict crowd behavior to situations involving inanimate objects.
+
+6. According to the passage the director of the Lord of the Rings trilogy owes thanks to which of the follow-ing people?
+
+F. Demetri Terzopoulos
+G. Diane Holland
+H. Stephen Regelous
+J. Richard Colwil
+
+7. The passage indicates that in relation to Terzopoulos 's work in computer-generated simulations, Massive Software's work is:
+
+A. more experimental in nature.
+B. less often used in films.
+C. more realistic in films.
+D. similar in approach.
+
+8. The passage indicates that Terzopoulos accounted for which of the following situations in his study of com-muter behavior at Pennsylvania Station?
+
+F. A train arriving behind schedule
+G. A train being full
+H. A commuter getting lost
+J. A commuter running late
+
+9. According to the passage, using computer simulations instead of cameras to study public behavior is prefer-able due to concerns about:
+
+A. privacy.
+B. cost.
+C. labor.
+D. safety.
+
+10. In lines 85-86, the phrase a crowded field most nearly refers to:
+
+F. the research and development of agent software to simulate real-world situations.
+G. a harbor in need of traffic-management strategies.
+H. an open area where real-world crowd behavior is studied.
+J. a filming location for the Lord of the Rings trilogy

@@ -1,0 +1,164 @@
+NATURAL SCIENCE: This passage is adapted from the article "Not Dead Yet: A Dying Star Is Caught Flaring Briefly Back to Life" by Charles Liu (©2005 by Natural History Magazine, Inc.).
+
+About a billion years before a sunlike star "dies,"
+or stops generating energy via nuclear fusion, it
+becomes a red giant, growing dramatically to a hundred
+times its original diameter. Then, as the red-giant phase
+5ends, the star blows off its outer layers, giving rise to an
+expanding gas cloud called a planetary nebula. The
+planetary nebula, in turn, swells in size and -drops in
+density for at most another 100,000 years, exposfug the
+remaining stellar core at its center. That core becomes a
+10white dwarf-the most common celestial cadaver visi-
+ble in the sky. The white dwarf usually radiates its left-
+over heat into space for billions of years, and it slowly
+fades to black.
+
+Some soon-to-be white dwarfs, however, seem to
+15heed the counsel of poet Dylan Thomas: "Do not go
+gentle into that good night." According to the theory of
+stellar evolution, the temperature in the stellar core can
+fluctuate wildly, and sometimes spikes as high as tens
+of millions of degrees. For a little while at least, the
+20core may even flicker back into stellar life as a giant
+star; generating new energy with new. flares of nuclear
+fusion.
+
+Alas, such a giant can't last long, because the core
+is, in essence, running on fumes. Without a substantial
+25fuel source to sustain fusion, a nuclear re-ignition of
+this kind runs out of gas within a few centuries, and the
+star heads back toward white dwarfhood. But during its
+brief return to'fusion-powered life, its interaction with
+the surrounding cloud of gas creates a fascinating astro-
+30nomical laboratory for the study of stellar and interstel-
+lar processes.
+
+The star FG Sagittae, a highly variable .star in the
+constellation Sagitta, seems to be a case in point. FG
+Sagittae lies at the heart of a planetary nebula called
+35He 1-5. In the past thirty years the star's temperature
+has. dropped from more than _J0,000 degrees Fahrenheit
+to less than 10,000 degrees, though its brightness has
+changed erratically from year to year. As with an old,
+grease-choked diesel engine struggling to start back up,
+40the star's efforts to restart nuclear fusion create puffs of
+hick smoke-carbon atoms coughed up from the
+fading stellar core. The smoke absorbs the star's radiat-
+ing heat and periodically obscures the visible light it
+emits. To see through the haze and examine the goings-
+45on near the star's surface, astronomers must look at its
+radiation in less obscured wavelengths, such as infrared
+light.
+
+A research team led by Robert A. Gehrz of the
+University of Minnesota in Minneapolis has now done
+50just that. Recently the team published the results of
+twenty years of monitoring the infrared properties of
+FG Sagittae with three telescopes equipped with
+infrared photometers-in effect, photon counters. One
+instrument is in Minnesota, one in Arizona, and one in
+55Wyoming. Gehrz and his colleagues discovered that,
+though the star's overall brightness and temperature
+have changed dramatically through the years, carbon
+dust from the surface of FG Sagittae has been shining
+more or less steadily at a temperature of about
+601,200 degrees F (650 degrees Celsius). That's roughly
+hot enough to melt aluminum, but substantially cooler
+than the core of any star undergoing active nuclear
+fusion. Gehrz and his colleagues conclude that, besides
+giving rise to clouds of obscuring gas, FG Sagittae is
+65powering a strong stellar wind peppered with this
+arbon dust. They think this dust has been glowing con-
+tinuously for the past decade. On the basis of the mea-
+sured amount of emitted infrared radiation, Gehrz's
+team estimates that the wind is carrying between
+701.5 and 7 .5 quadrillion ( 1.5 to 7 .5 x I 015) tons of stellar
+material away from FG Sagittae each second-or about
+eight to forty Earth masses each year.
+
+Sooner rather than later the current burst of new
+nuclear fusion will cease, and the dusty stellar wind
+75will cease. The stellar core, no longer obscured by a
+thick, dusty blanket, will turn once more into a hot
+white dwarf. If, as theoretical models predict, the stellar
+renaissance of FG Sagittae lasts a few hundred years,
+the wind will deposit thousands of Earth-masses' worth
+80of carbon-rich matter into the star's surroundings. The
+carbon atoms, as they cool down, could become seeds
+for the buildup of interstellar dust grains-which, in
+turn, could seed the formation of asteroids, moons,
+planets, and perhaps eventually even life as we know it.
+85Maybe the astronomers of the twenty-fourth or twenty-
+fifth century will look toward FG Sagittae and see, in
+its surroundings, the potential makings of a new and
+distant earth.
+1. The passage indicates that one difference between a sunlike star and a dying star is that a sunlike star:
+
+A. has more fuel for nuclear fusion.
+B. has a larger planetary nebula.
+C. is more often studied with a photometer.
+D. has more dramatic fuctuations in brightness.
+
+2. The main purpose of the first paragraph is to:
+
+F. describe how some stars flicker back to stellar life before becoming white dwarfs.
+G. use FG Sagittae as an example of a star currently heading toward the white dwarf phase.
+H. explain the dying process of stars from the red giant phase through the white dwarf phase.
+J. contrast the longevity of a red giant with that of a white dwarf
+
+3. The author quotes a Dylan Thomas poem in lines15-16 mainly to introduce the passage's point that:
+
+A. astronomers often feel nostalgic about the stars they have studied.
+B. a dying star is sometimes a danger to the stellar matter around it.
+C. scientists often refer to white dwarfs as being in a gentle stage of a star's life.
+D. some stars flare back into life before fading to black.
+
+4. According to the passage, one reason the brightness of FG Sagittae has appeared to change erratically from year to year is that:
+
+F. the star's light is periodically blocked by another stellar body.
+G. smoke sometimes obscures the star's light.
+H. wind is distorting the planetary nebula.
+J. white dwarfs don't produce visible light.
+
+5. According to the passage, compared to the temperature of the core of a star undergoing nuclear fusion, the temperature of the carbon dust from the surface of FG Sagittae is:
+
+A. about the same.
+B. slightly cooler.
+C. much cooler.
+D. much hotter.
+
+6. The passage states that when studying the wind pow-ered by FG Sagittae, Gehrz's team used the measured amount of emitted infrared radiation to estimate the:
+
+F. likelihood of stellar material produced by FG Sagittae affecting Earth's mass.
+G. probability of FG Sagittae becoming a red giant by the twenty-fifth century.
+H. reason for the decrease in the amount of dust gen-erated by FG Sagittae.
+J. amount of stellar material carried away from FG Sagittae per second.
+
+7. Based on the passage, FG Sagittae's efforts to restart nuclear fusion would best be characterized as:
+
+A. smooth.
+B. labored.
+C. sudden.
+D. impossible.
+
+8. According to the passage, Gehrz's research team used infrared light to study FG Sagittae because infrared light allowed the team to:
+
+F. identify the individual gases that compose the planetary nebula.
+G. calculate the exact number of years the star will spend in the white dwarf phase.
+H. view the activity close to the surface of FG Sagittae.
+J. determine the precise location of FG Sagittae in He 1-5
+
+9. At the end of the passage, the author muses that the current regeneration of FG Sagittae may eventually result in:
+
+A. the formation of new life in the universe.
+B. FG Sagittae's return to the beginning of its life cycle.
+C. the death of a distant star.
+D. the onset of the red giant phase in a neighboring star.
+
+10. According to the passage, if theoretical models are accurate, the stellar renaissance of FG Sagittae will last for a period of time best described as:
+
+F. a few hundred years.
+G. between 10,000 and 30,000 years.
+H. approximately 100,000 years.
+J. billions of years

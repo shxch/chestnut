@@ -1,9 +1,11 @@
 import os
+import platform
+import subprocess
 import sys
 from pathlib import Path
 
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QInputDialog, QMessageBox, QFileDialog, QApplication, QLineEdit
+from PyQt6 import QtWidgets, QtGui
+from PyQt6.QtWidgets import QInputDialog, QMessageBox, QFileDialog, QApplication, QLineEdit
 from sortedcontainers import SortedSet
 
 from GUI.MenuBar_GUI import Ui_mnb
@@ -24,7 +26,7 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         QtWidgets.QMainWindow.__init__(self, parent)
         self.setupUi(self)
         self.setMenuBar(MenuBar())
-        self.fileModel = QtWidgets.QFileSystemModel()
+        self.fileModel = QtGui.QFileSystemModel()
         self.fileModel.setRootPath('')
         self.tvwStudents.setModel(self.fileModel)
         self.tvwStudents.setRootIndex(self.fileModel.index(str(studentsFolderPath)))
@@ -52,7 +54,7 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
     def renameStudent(self):
         index = self.tvwStudents.currentIndex()
         # noinspection PyArgumentList
-        newName, ok = QInputDialog.getText(None, 'New Name', 'Enter New Name', QLineEdit.Normal,
+        newName, ok = QInputDialog.getText(None, 'New Name', 'Enter New Name', QLineEdit.EchoMode.Normal,
                                            self.fileModel.fileName(index))
         if ok and newName:
             os.rename(self.fileModel.filePath(index), Path(self.fileModel.filePath(index)).parent.joinpath(newName))
@@ -62,10 +64,10 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
         msgboxConfirm = QMessageBox()
         msgboxConfirm.setWindowTitle("Delete Confirmation")
         msgboxConfirm.setText("Are you sure you want to delete " + self.fileModel.fileName(index) + "?")
-        msgboxConfirm.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
+        msgboxConfirm.setStandardButtons(QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.Cancel)
 
         choice = msgboxConfirm.exec()
-        if choice == QMessageBox.Yes:
+        if choice == QMessageBox.StandardButton.Yes:
             os.remove(self.fileModel.filePath(index))
 
     def openSelectPassageWindow(self):
@@ -78,7 +80,10 @@ class WindowSelectStudent(QtWidgets.QMainWindow, Ui_winSelectStudent):
     def openStudentFile(self, index):
         filePath = self.fileModel.filePath(index)
         if os.path.isfile(filePath):
-            os.system('notepad ' + filePath)
+            if platform.system() == "Windows":
+                os.system('notepad ' + filePath)
+            else:
+                subprocess.call(['open', '-a', 'TextEdit', filePath])
 
 
 class WindowSelectPassage(QtWidgets.QMainWindow, Ui_winSelectPassage):
@@ -165,7 +170,7 @@ class WindowDisplayNewWords(QtWidgets.QMainWindow, Ui_winDisplayNewWords):
         msgCopied = QMessageBox()
         msgCopied.setText("New words have been copied to clipboard.")
         msgCopied.setWindowTitle("Success")
-        msgCopied.setStandardButtons(QMessageBox.Ok)
+        msgCopied.setStandardButtons(QMessageBox.StandardButton.Ok)
         msgCopied.exec()
 
 

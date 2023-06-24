@@ -1,4 +1,4 @@
-from PyQt5 import QtCore, QtWidgets
+from PyQt6 import QtCore, QtWidgets, QtGui
 
 
 class Ui_mnb(object):
@@ -7,9 +7,9 @@ class Ui_mnb(object):
         mnb.setObjectName("menuBar")
         self.menuPassage = QtWidgets.QMenu(mnb)
         self.menuPassage.setObjectName("menuPassage")
-        self.actionNewPassage = QtWidgets.QAction(mnb)
+        self.actionNewPassage = QtGui.QAction(mnb)
         self.actionNewPassage.setObjectName("actionNewPassage")
-        self.actionOpenPassageFile = QtWidgets.QAction(mnb)
+        self.actionOpenPassageFile = QtGui.QAction(mnb)
         self.actionOpenPassageFile.setObjectName("actionOpenPassageFile")
         self.menuPassage.addAction(self.actionNewPassage)
         self.menuPassage.addAction(self.actionOpenPassageFile)

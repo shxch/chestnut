@@ -7,7 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt6 import QtCore, QtGui, QtWidgets
 
 
 class Ui_winDisplayNewWords(object):
@@ -22,7 +22,7 @@ class Ui_winDisplayNewWords(object):
         font = QtGui.QFont()
         font.setStrikeOut(False)
         font.setKerning(True)
-        font.setStyleStrategy(QtGui.QFont.PreferAntialias)
+        # font.setStyleStrategy(QtGui.QFont.Style)
         self.txtNewWords.setFont(font)
         self.txtNewWords.setAcceptRichText(False)
         self.txtNewWords.setObjectName("txtNewWords")
@@ -32,7 +32,7 @@ class Ui_winDisplayNewWords(object):
         self.btnCopytoClipboard = QtWidgets.QPushButton(self.centralwidget)
         self.btnCopytoClipboard.setObjectName("btnCopytoClipboard")
         self.verticalLayout.addWidget(self.btnCopytoClipboard)
-        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
         self.verticalLayout.addItem(spacerItem)
         self.btnBack = QtWidgets.QPushButton(self.centralwidget)
         self.btnBack.setObjectName("btnBack")

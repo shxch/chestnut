@@ -7,21 +7,21 @@
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtWidgets
+from PyQt6 import QtCore, QtWidgets
 
 
 class Ui_winSelectPassage(object):
     def setupUi(self, winSelectPassage):
         winSelectPassage.setObjectName("winSelectPassage")
         winSelectPassage.resize(800, 600)
-        winSelectPassage.setFocusPolicy(QtCore.Qt.NoFocus)
+        winSelectPassage.setFocusPolicy(QtCore.Qt.FocusPolicy.NoFocus)
         self.centralwidget = QtWidgets.QWidget(winSelectPassage)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
         self.gridLayout.setObjectName("gridLayout")
         self.lstPassages = QtWidgets.QListWidget(self.centralwidget)
         self.lstPassages.setAlternatingRowColors(True)
-        self.lstPassages.setSelectionMode(QtWidgets.QAbstractItemView.MultiSelection)
+        self.lstPassages.setSelectionMode(QtWidgets.QAbstractItemView.SelectionMode.MultiSelection)
         self.lstPassages.setProperty("isWrapping", False)
         self.lstPassages.setWordWrap(True)
         self.lstPassages.setObjectName("lstPassages")
@@ -34,7 +34,7 @@ class Ui_winSelectPassage(object):
         self.btnRemove = QtWidgets.QPushButton(self.centralwidget)
         self.btnRemove.setObjectName("btnRemove")
         self.verticalLayout.addWidget(self.btnRemove)
-        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
         self.verticalLayout.addItem(spacerItem)
         self.chkOutputMode = QtWidgets.QCheckBox(self.centralwidget)
         self.chkOutputMode.setChecked(False)
@@ -70,4 +70,4 @@ if __name__ == "__main__":
     ui = Ui_winSelectPassage()
     ui.setupUi(winSelectPassage)
     winSelectPassage.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

@@ -7,14 +7,14 @@
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtWidgets
+from PyQt6 import QtCore, QtWidgets
 
 
 class Ui_winSelectStudent(object):
     def setupUi(self, winSelectStudent):
         winSelectStudent.setObjectName("winSelectStudent")
         winSelectStudent.resize(800, 600)
-        winSelectStudent.setFocusPolicy(QtCore.Qt.NoFocus)
+        winSelectStudent.setFocusPolicy(QtCore.Qt.FocusPolicy.NoFocus)
         self.centralwidget = QtWidgets.QWidget(winSelectStudent)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
@@ -36,7 +36,7 @@ class Ui_winSelectStudent(object):
         self.btnDelete = QtWidgets.QPushButton(self.centralwidget)
         self.btnDelete.setObjectName("btnDelete")
         self.verticalLayout.addWidget(self.btnDelete)
-        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
         self.verticalLayout.addItem(spacerItem)
         self.btnNext = QtWidgets.QPushButton(self.centralwidget)
         self.btnNext.setObjectName("btnNext")
@@ -63,4 +63,4 @@ if __name__ == "__main__":
     ui = Ui_winSelectStudent()
     ui.setupUi(winSelectStudent)
     winSelectStudent.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
